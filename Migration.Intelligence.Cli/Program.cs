@@ -1,3 +1,4 @@
+using System.Globalization;
 using System.Text;
 using System.Text.Json;
 using System.Text.RegularExpressions;
@@ -279,7 +280,7 @@ static bool TryParseArgs(
                 break;
             case "--llm-temperature":
                 if (!TryReadValue(args, ref i, out var temperatureValue)
-                    || !double.TryParse(temperatureValue, out llmTemperature)
+                    || !double.TryParse(temperatureValue, NumberStyles.Float, CultureInfo.InvariantCulture, out llmTemperature)
                     || llmTemperature < 0
                     || llmTemperature > 1)
                 {
