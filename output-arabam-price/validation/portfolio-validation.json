@@ -1,0 +1,66 @@
+{
+  "IntelligenceReport": {
+    "Scope": "MigrationIntelligence",
+    "GeneratedAtUtc": "2026-03-07T15:10:26.5956186+00:00",
+    "QualityScore": 72,
+    "Issues": [
+      {
+        "Code": "MI002",
+        "Severity": 2,
+        "Message": "Domain enumeration validation failed; inferred and rendered domain sets diverge.",
+        "Scope": "DomainEnumeration",
+        "Evidence": [
+          "Domains without dependency edges: Help, Widget."
+        ]
+      },
+      {
+        "Code": "MI005",
+        "Severity": 1,
+        "Message": "Some scheduled Hangfire jobs do not have fully resolved schedule definitions.",
+        "Scope": "BackgroundJobs",
+        "Evidence": [
+          "AdvertExpertiseDiscountCodeNotificationJob:AdvertExpertiseDiscountCodeNotificationConsumerJob",
+          "AdvertIndexerJob:AdvertIndexer1",
+          "AdvertPriceOfferRecomputeJob:AdvertPriceOfferRecomputeJob1",
+          "AdvertSoldCheckStateJob:AdvertSoldCheckStateConsumerJob1",
+          "AdvertTrackingJob:AdvertTracking",
+          "ApproveAdvertsWaitingUserPhoneConfirmationJob:ApproveAdvertsWaitingUserPhoneConfirmationJob",
+          "OrganizerSynchAdvertJob:OrganizerSynchAdvert",
+          "ExpertiseReservationTrackingJob:ExpertiseReservationTracking",
+          "MemberDocumentMailJsonJob:MemberDocumentMailJsonJob",
+          "MemberIntegrationJob:MemberIntegration",
+          "OrganizerSynchMemberJob:OrganizerSynchMember",
+          "PriceOfferAnonymizationJob:PriceOfferAnonymizationConsumerJob",
+          "PriceOfferForNoReservationJob:PriceOfferForNoReservationSms",
+          "PriceOfferStatusJob:PriceOfferStatus",
+          "UpdateMedianValuesJob:UpdateMedianValuesJob",
+          "CrawlerSetAdvertToArabamCategoryJob:CrawlerSetAdvertToArabamCategoryJob",
+          "InstantFavoriteSearchTrackingJob:InstantFavoriteSearchTracking",
+          "IvtDailyUpdateJob:IvtDailyUpdateConsumerJob",
+          "IvtSingleEntryJob:IvtSingleEntryJob",
+          "OrganizerSynchLoginActionJob:OrganizerSynchLoginAction",
+          "OrganizerSynchOrderJob:OrganizerSynchOrder",
+          "OrganizerSynchOrgMemberJob:OrganizerSynchOrgMember",
+          "OrganizerSynchSubscriptionJob:OrganizerSynchSubscription",
+          "OutOfDateAdvertsIndexerJob:OutOfDateAdvertsIndexerJob",
+          "SurveyMonkeyPriceOfferReservationSmsJob:SurveyMonkeyPriceOfferReservationSmsJob"
+        ]
+      }
+    ],
+    "HasErrors": true,
+    "HasWarnings": true
+  },
+  "DomainReports": [
+    {
+      "Scope": "DomainDesign:Price",
+      "GeneratedAtUtc": "2026-03-07T15:10:26.5962591+00:00",
+      "QualityScore": 100,
+      "Issues": [],
+      "HasErrors": false,
+      "HasWarnings": false
+    }
+  ],
+  "OverallScore": 86,
+  "GeneratedAtUtc": "2026-03-07T15:10:26.5970355+00:00",
+  "HasErrors": true
+}

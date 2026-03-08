@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Migration.Intelligence.Contracts/1.0.0": {
+        "runtime": {
+          "Migration.Intelligence.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Migration.Intelligence.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

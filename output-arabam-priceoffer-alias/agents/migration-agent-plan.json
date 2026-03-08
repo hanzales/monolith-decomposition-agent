@@ -1,0 +1,58 @@
+{
+  "GeneratedAtUtc": "2026-03-07T15:12:23.1188451+00:00",
+  "OverallConfidenceScore": 22,
+  "Mode": 0,
+  "AiReasoningApplied": false,
+  "AiSummary": "Deterministic planning used for 1 domain recommendation(s).",
+  "Recommendations": [
+    {
+      "Domain": "Price",
+      "Rank": 1,
+      "PriorityScore": 0,
+      "Strategy": 1,
+      "ReadinessLevel": "Low",
+      "Reasons": [
+        "Priority score computed as 0.",
+        "Boundary confidence: 92%.",
+        "Readiness score: 5 (Low).",
+        "Shared tables: 6.",
+        "Blockers: 4.",
+        "Extraction strategy: ReadOnlyFirst.",
+        "Validation score: 100."
+      ],
+      "Blockers": [
+        "Anti-corruption layer required for legacy/shared dependencies.",
+        "HttpContext usage: Direct HttpContext access leaks transport concerns into domain/application layers.",
+        "HttpContext usage: Porting to microservices requires extensive rewiring of request-scoped context logic.",
+        "Shared table coupling (6 table(s))."
+      ],
+      "ActionItems": [
+        {
+          "Title": "Define table ownership split",
+          "Category": "data",
+          "Description": "Assign table owners and define phased access migration with compatibility views/APIs.",
+          "Priority": 1
+        },
+        {
+          "Title": "Implement anti-corruption adapter",
+          "Category": "integration",
+          "Description": "Wrap legacy interfaces and shared dependencies behind stable service contracts.",
+          "Priority": 1
+        },
+        {
+          "Title": "Reduce coupling before cutover",
+          "Category": "architecture",
+          "Description": "Break direct dependencies through APIs/events and remove shared runtime assumptions.",
+          "Priority": 2
+        }
+      ]
+    }
+  ],
+  "GlobalNotes": [
+    "Analyzed business domains: 13.",
+    "Design recommendations produced: 1.",
+    "Validation overall score: 86.",
+    "Validation detected blocking errors; top recommendations should be treated as conditional.",
+    "Reasoning summary: Deterministic planning used for 1 domain recommendation(s)."
+  ]
+}

@@ -1,0 +1,3324 @@
+{
+  "SelectedDomain": "Price",
+  "ServiceBlueprint": {
+    "CandidateName": "Price",
+    "BoundedContextName": "PriceContext",
+    "Description": "Likely business boundary inferred from controller, repository, table, and dependency co-occurrence.",
+    "CoreCapabilities": [
+      "ApprovePhoneWorkflow",
+      "ApprovePriceOffer",
+      "CalculateWorkflow",
+      "CancelReservationWorkflow",
+      "DetailWorkflow",
+      "IndexWorkflow",
+      "Price",
+      "PriceCheckStepInformation",
+      "PriceOffer",
+      "PriceOfferAction",
+      "PriceOfferAnonymization",
+      "PriceOfferCall",
+      "PriceOfferCode",
+      "PriceOfferContent",
+      "PriceOfferConversation",
+      "PriceOfferDamageQuery",
+      "PriceOfferExpertise",
+      "PriceOfferFeature",
+      "PriceOfferFeedback",
+      "PriceOfferForNoReservation",
+      "PriceOfferKilometer",
+      "PriceOfferKilometerImage",
+      "PriceOfferLiveActivityLog",
+      "PriceOfferNotificationLog",
+      "PriceOfferOfferFirm",
+      "PriceOfferOtpCode",
+      "PriceOfferRecompute",
+      "PriceOfferReservation",
+      "PriceOfferReservationCancellationComponent",
+      "PriceOfferRestricted",
+      "PriceOfferTestimonial",
+      "PriceOfferUnavailable",
+      "PriceOfferUnavailableRecompute",
+      "PriceSuggestion",
+      "PriceZone",
+      "Pricing",
+      "PricingApi",
+      "ResultWorkflow",
+      "SearchWorkflow"
+    ],
+    "PrimaryControllers": [
+      "ApprovePriceOfferController",
+      "PriceOfferController",
+      "PriceOfferRestrictedController",
+      "PriceOfferTestimonialController",
+      "PriceSuggestionController",
+      "PricingApiController",
+      "PricingController"
+    ],
+    "PrimaryRepositories": [
+      "BundlePriceRepository",
+      "PriceCheckStepInformationRepository",
+      "PriceOfferActionRepository",
+      "PriceOfferCodeRepository",
+      "PriceOfferContentRepository",
+      "PriceOfferConversationRepository",
+      "PriceOfferDamageQueryRepository",
+      "PriceOfferFeatureRepository",
+      "PriceOfferFeedbackRepository",
+      "PriceOfferKilometerImageRepository",
+      "PriceOfferKilometerRepository",
+      "PriceOfferLiveActivityLogRepository",
+      "PriceOfferNotificationLogRepository",
+      "PriceOfferOfferFirmRepository",
+      "PriceOfferOtpCodeRepository",
+      "PriceOfferRecomputeRepository",
+      "PriceOfferRepository",
+      "PriceOfferReservationCancellationComponentRepository",
+      "PriceOfferReservationRepository",
+      "PriceOfferTestimonialRepository",
+      "PriceOfferUnavailableRecomputeRepository",
+      "PriceOfferUnavailableRepository",
+      "PriceZoneRepository"
+    ],
+    "PrimaryTables": [
+      "Advert",
+      "AgreementAction",
+      "Brands",
+      "BundlePrice",
+      "ContentMedia",
+      "Conversation",
+      "DamageQuery",
+      "Feedback",
+      "Firm",
+      "FnSplit",
+      "GovdeSekilleri",
+      "LastOfferDisplayCancellations",
+      "Markalar",
+      "Members",
+      "ModelGroups",
+      "Models",
+      "NotificationLog",
+      "Offer",
+      "OfferFirm",
+      "OfferHistory",
+      "OfferLiveActivityLog",
+      "OfferUnavailable",
+      "OfferVehicleInfo",
+      "OfferWorkflowHistory",
+      "PreReservationControlsUserAnswers",
+      "PriceCheckStepInformation",
+      "PriceOffer",
+      "PriceOfferAction",
+      "PriceOfferFeature",
+      "PriceOfferReservation",
+      "PriceOfferTestimonial",
+      "PriceZone",
+      "Recompute",
+      "RecomputeInsiderEventTracker",
+      "RecomputeNotificationPeriodRule",
+      "RecomputeNotificationRule",
+      "Renkler",
+      "Reservation",
+      "ReservationLiveActivityLog",
+      "ReservationNoShowOffer",
+      "SalesPoint",
+      "TestMember",
+      "UnavailableRecompute",
+      "Vitesler",
+      "Yakitlar"
+    ],
+    "CohesionScore": 100,
+    "CouplingScore": 5,
+    "MigrationReadinessScore": 5,
+    "MigrationReadinessLevel": "Low"
+  },
+  "ServiceBoundary": {
+    "DomainCandidate": "Price",
+    "Subdomains": [
+      "Price",
+      "PriceCheckStepInformation",
+      "PriceOffer",
+      "PriceOfferAction",
+      "PriceOfferAnonymization",
+      "PriceOfferCall",
+      "PriceOfferCode",
+      "PriceOfferContent",
+      "PriceOfferConversation",
+      "PriceOfferDamageQuery",
+      "PriceOfferExpertise",
+      "PriceOfferFeature",
+      "PriceOfferFeedback",
+      "PriceOfferForNoReservation",
+      "PriceOfferKilometer",
+      "PriceOfferKilometerImage",
+      "PriceOfferLiveActivityLog",
+      "PriceOfferNotificationLog",
+      "PriceOfferOfferFirm",
+      "PriceOfferOtpCode",
+      "PriceOfferRecompute",
+      "PriceOfferReservation",
+      "PriceOfferReservationCancellationComponent",
+      "PriceOfferRestricted",
+      "PriceOfferTestimonial",
+      "PriceOfferUnavailable",
+      "PriceOfferUnavailableRecompute",
+      "PriceSuggestion",
+      "PriceZone",
+      "Pricing"
+    ],
+    "Controllers": [
+      "ApprovePriceOfferController",
+      "PriceOfferController",
+      "PriceOfferRestrictedController",
+      "PriceOfferTestimonialController",
+      "PriceSuggestionController",
+      "PricingApiController",
+      "PricingController"
+    ],
+    "Services": [
+      "PriceOfferReservationService",
+      "PriceOfferService",
+      "PriceOfferTestimonialService"
+    ],
+    "Repositories": [
+      "BundlePriceRepository",
+      "PriceCheckStepInformationRepository",
+      "PriceOfferActionRepository",
+      "PriceOfferCodeRepository",
+      "PriceOfferContentRepository",
+      "PriceOfferConversationRepository",
+      "PriceOfferDamageQueryRepository",
+      "PriceOfferFeatureRepository",
+      "PriceOfferFeedbackRepository",
+      "PriceOfferKilometerImageRepository",
+      "PriceOfferKilometerRepository",
+      "PriceOfferLiveActivityLogRepository",
+      "PriceOfferNotificationLogRepository",
+      "PriceOfferOfferFirmRepository",
+      "PriceOfferOtpCodeRepository",
+      "PriceOfferRecomputeRepository",
+      "PriceOfferRepository",
+      "PriceOfferReservationCancellationComponentRepository",
+      "PriceOfferReservationRepository",
+      "PriceOfferTestimonialRepository",
+      "PriceOfferUnavailableRecomputeRepository",
+      "PriceOfferUnavailableRepository",
+      "PriceZoneRepository"
+    ],
+    "Entities": [
+      "AddPriceOfferSms",
+      "BundlePrice",
+      "BundlePriceMap",
+      "EuroTaxPrice",
+      "PaintedAndChangedCountsOfExpertise",
+      "PriceFacetGroup",
+      "PriceMilage",
+      "PriceOffer",
+      "PriceOfferAction",
+      "PriceOfferCache",
+      "PriceOfferCall",
+      "PriceOfferCode",
+      "PriceOfferFirm",
+      "PriceOfferMap",
+      "PriceOfferStatus",
+      "PriceOfferSteps",
+      "PriceOfferTests",
+      "PriceRange",
+      "PriceRanges",
+      "PriceSuggestion",
+      "PriceZone",
+      "PriceZoneCity",
+      "PriceZoneCityMap",
+      "PriceZoneMap",
+      "Pricing",
+      "PricingStep",
+      "ProductPrice",
+      "ProductPriceMap",
+      "ReservationDateInfo"
+    ],
+    "Tables": [
+      "Advert",
+      "AgreementAction",
+      "Brands",
+      "BundlePrice",
+      "ContentMedia",
+      "Conversation",
+      "DamageQuery",
+      "Feedback",
+      "Firm",
+      "FnSplit",
+      "GovdeSekilleri",
+      "LastOfferDisplayCancellations",
+      "Markalar",
+      "Members",
+      "ModelGroups",
+      "Models",
+      "NotificationLog",
+      "Offer",
+      "OfferFirm",
+      "OfferHistory",
+      "OfferLiveActivityLog",
+      "OfferUnavailable",
+      "OfferVehicleInfo",
+      "OfferWorkflowHistory",
+      "PreReservationControlsUserAnswers",
+      "PriceCheckStepInformation",
+      "PriceOffer",
+      "PriceOfferAction",
+      "PriceOfferFeature",
+      "PriceOfferReservation",
+      "PriceOfferTestimonial",
+      "PriceZone",
+      "Recompute",
+      "RecomputeInsiderEventTracker",
+      "RecomputeNotificationPeriodRule",
+      "RecomputeNotificationRule",
+      "Renkler",
+      "Reservation",
+      "ReservationLiveActivityLog",
+      "ReservationNoShowOffer",
+      "SalesPoint",
+      "TestMember",
+      "UnavailableRecompute",
+      "Vitesler",
+      "Yakitlar"
+    ],
+    "ExecutionChains": [
+      {
+        "Controller": "ApprovePriceOfferController",
+        "Service": "PriceOfferService",
+        "Repository": "PriceOfferRepository",
+        "Table": "Advert",
+        "Evidence": "Controller -\u003E service -\u003E repository -\u003E table chain detected from constructor dependencies and table mapping.",
+        "IsComplete": true
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Service": "PriceOfferService",
+        "Repository": "PriceOfferRepository",
+        "Table": "Advert",
+        "Evidence": "Controller -\u003E service -\u003E repository -\u003E table chain detected from constructor dependencies and table mapping.",
+        "IsComplete": true
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Service": "PriceOfferService",
+        "Repository": "PriceOfferRepository",
+        "Table": "Advert",
+        "Evidence": "Controller -\u003E service -\u003E repository -\u003E table chain detected from constructor dependencies and table mapping.",
+        "IsComplete": true
+      },
+      {
+        "Controller": "PriceOfferRestrictedController",
+        "Service": "PriceOfferReservationService",
+        "Repository": "PriceOfferReservationRepository",
+        "Table": "PriceOfferReservation",
+        "Evidence": "Controller -\u003E service -\u003E repository -\u003E table chain detected from constructor dependencies and table mapping.",
+        "IsComplete": true
+      },
+      {
+        "Controller": "PriceOfferTestimonialController",
+        "Service": "PriceOfferTestimonialService",
+        "Repository": "PriceOfferTestimonialRepository",
+        "Table": "PriceOfferTestimonial",
+        "Evidence": "Controller -\u003E service -\u003E repository -\u003E table chain detected from constructor dependencies and table mapping.",
+        "IsComplete": true
+      },
+      {
+        "Controller": "PriceSuggestionController",
+        "Service": "PriceOfferReservationService",
+        "Repository": "PriceOfferActionRepository",
+        "Table": "PriceOfferAction",
+        "Evidence": "Controller -\u003E service -\u003E repository -\u003E table chain detected from constructor dependencies and table mapping.",
+        "IsComplete": true
+      },
+      {
+        "Controller": "PriceSuggestionController",
+        "Service": "PriceOfferReservationService",
+        "Repository": "PriceOfferActionRepository",
+        "Table": "PriceOfferAction",
+        "Evidence": "Controller -\u003E service -\u003E repository -\u003E table chain detected from constructor dependencies and table mapping.",
+        "IsComplete": true
+      },
+      {
+        "Controller": "PricingApiController",
+        "Service": "PriceOfferService",
+        "Repository": "PriceZoneRepository",
+        "Table": "PriceZone",
+        "Evidence": "Controller -\u003E service -\u003E repository -\u003E table chain detected from constructor dependencies and table mapping.",
+        "IsComplete": true
+      },
+      {
+        "Controller": "PricingController",
+        "Service": "PriceOfferService",
+        "Repository": "PriceZoneRepository",
+        "Table": "PriceZone",
+        "Evidence": "Controller -\u003E service -\u003E repository -\u003E table chain detected from constructor dependencies and table mapping.",
+        "IsComplete": true
+      }
+    ],
+    "InboundDependentDomains": [
+      "Advert",
+      "Category",
+      "Expertise",
+      "Favorite",
+      "Member",
+      "Order",
+      "Summary"
+    ],
+    "OutboundDependencies": [
+      "Advert",
+      "Category",
+      "Expertise",
+      "Favorite",
+      "Member",
+      "Order",
+      "Summary",
+      "Unmapped"
+    ],
+    "BoundaryWarnings": [],
+    "BoundaryConfidence": 0.9185479452054799,
+    "BoundaryRationale": "Price boundary inferred from 7 controllers, 3 services, 23 repositories and 45 tables (high-confidence)."
+  },
+  "ServiceContract": {
+    "DomainCandidate": "Price",
+    "PublicApis": [
+      {
+        "Controller": "PriceOfferController",
+        "Action": "AcceptedNewsSms",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/acceptednewssms",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "ApproveNewsLetter",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/approvenewsletter",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "ApprovePhone",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/approvephone",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "CancelationReason",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/cancelationreason",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "CancelReservation",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/cancelreservation",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "CreateOffer",
+        "HttpMethod": 2,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/createoffer",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "CreateOfferByAdvert",
+        "HttpMethod": 2,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/createofferbyadvert",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "CreateReservation",
+        "HttpMethod": 2,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/createreservation",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "DefinitionByCode",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/definitionbycode",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "Detail",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/detail",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "ErrorOffer",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/erroroffer",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "Expertises",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/expertises",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "ExpertisesCityAndSalesPointCounts",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/expertisescityandsalespointcounts",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "ExpertisesJson",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/expertisesjson",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "Feedback",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/feedback",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "FindModelsByInsuranceCode",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/findmodelsbyinsurancecode",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "ForeClosureLanding",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/foreclosurelanding",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "GetByCode",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/getbycode",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "GetCalendar",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/getcalendar",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "GetCities",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/getcities",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "GetCustomPopUp",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/getcustompopup",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "GetCustomPopUpDynamic",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/getcustompopupdynamic",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "GetExperts",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/getexperts",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "GetLastVehicleOffered",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/getlastvehicleoffered",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "GetMyCarInTheGarageComponent",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/getmycarinthegaragecomponent",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "GetOnlineReservationConfirmationQuestions",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/getonlinereservationconfirmationquestions",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "GetPreReservationQuestionList",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/getprereservationquestionlist",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "GetReservationCancellationComponent",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/getreservationcancellationcomponent",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "GetStepDefinition",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/getstepdefinition",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "Index",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/index",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "KvkkAgrement",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/kvkkagrement",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "KvkkAgrementRejection",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/kvkkagrementrejection",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "ListOffersByPhone",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/listoffersbyphone",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "PreReservationControl",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/prereservationcontrol",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "ReSendActivationCode",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/resendactivationcode",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "Reservation",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/reservation",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "ReservationCount",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/reservationcount",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "ReservationDetail",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/reservationdetail",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "ReservationDetailJson",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/reservationdetailjson",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "ReservationJson",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/reservationjson",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "Result",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/result",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "Result",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/result",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "SaveAdvertFromOffer",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/saveadvertfromoffer",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "SavePreReservationAnswers",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/saveprereservationanswers",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "SaveV2",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/savev2",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "Search",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/search",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "SendActivationCode",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/sendactivationcode",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "SendOtpCode",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/sendotpcode",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "SetExpertNotify",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/setexpertnotify",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "Testimonials",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/testimonials",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "UpdatePhone",
+        "HttpMethod": 3,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/updatephone",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "UpdatePriceOfferReservation",
+        "HttpMethod": 3,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/updatepriceofferreservation",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "UpdateReservationDetail",
+        "HttpMethod": 3,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/updatereservationdetail",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "UtmSource",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/utmsource",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceOfferController",
+        "Action": "_FaqJson",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffer",
+        "Route": "/priceoffer/_faqjson",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceSuggestionController",
+        "Action": "ApproveCellPhone",
+        "HttpMethod": 2,
+        "RoutePrefix": "/pricesuggestion",
+        "Route": "/pricesuggestion/approvecellphone",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceSuggestionController",
+        "Action": "ApprovePhone",
+        "HttpMethod": 1,
+        "RoutePrefix": "/pricesuggestion",
+        "Route": "/pricesuggestion/approvephone",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceSuggestionController",
+        "Action": "Calculate",
+        "HttpMethod": 2,
+        "RoutePrefix": "/pricesuggestion",
+        "Route": "/pricesuggestion/calculate",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceSuggestionController",
+        "Action": "CreateOffer",
+        "HttpMethod": 2,
+        "RoutePrefix": "/pricesuggestion",
+        "Route": "/pricesuggestion/createoffer",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceSuggestionController",
+        "Action": "Index",
+        "HttpMethod": 1,
+        "RoutePrefix": "/pricesuggestion",
+        "Route": "/pricesuggestion/index",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceSuggestionController",
+        "Action": "IsPhoneApproved",
+        "HttpMethod": 1,
+        "RoutePrefix": "/pricesuggestion",
+        "Route": "/pricesuggestion/isphoneapproved",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceSuggestionController",
+        "Action": "PriceUnavailableResult",
+        "HttpMethod": 1,
+        "RoutePrefix": "/pricesuggestion",
+        "Route": "/pricesuggestion/priceunavailableresult",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceSuggestionController",
+        "Action": "Result",
+        "HttpMethod": 1,
+        "RoutePrefix": "/pricesuggestion",
+        "Route": "/pricesuggestion/result",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceSuggestionController",
+        "Action": "SaveAdvertFromSuggestion",
+        "HttpMethod": 1,
+        "RoutePrefix": "/pricesuggestion",
+        "Route": "/pricesuggestion/saveadvertfromsuggestion",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceSuggestionController",
+        "Action": "SendActivation",
+        "HttpMethod": 2,
+        "RoutePrefix": "/pricesuggestion",
+        "Route": "/pricesuggestion/sendactivation",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceSuggestionController",
+        "Action": "SendApproveCode",
+        "HttpMethod": 2,
+        "RoutePrefix": "/pricesuggestion",
+        "Route": "/pricesuggestion/sendapprovecode",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceSuggestionController",
+        "Action": "Start",
+        "HttpMethod": 1,
+        "RoutePrefix": "/pricesuggestion",
+        "Route": "/pricesuggestion/start",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceSuggestionController",
+        "Action": "Step",
+        "HttpMethod": 1,
+        "RoutePrefix": "/pricesuggestion",
+        "Route": "/pricesuggestion/step",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      },
+      {
+        "Controller": "PriceSuggestionController",
+        "Action": "UpdatePhoneForActivationCode",
+        "HttpMethod": 2,
+        "RoutePrefix": "/pricesuggestion",
+        "Route": "/pricesuggestion/updatephoneforactivationcode",
+        "Exposure": 0,
+        "OwnershipConfidence": 0.95
+      }
+    ],
+    "AdminApis": [
+      {
+        "Controller": "ApprovePriceOfferController",
+        "Action": "Index",
+        "HttpMethod": 1,
+        "RoutePrefix": "/approvepriceoffer",
+        "Route": "/approvepriceoffer/index",
+        "Exposure": 1,
+        "OwnershipConfidence": 0.55
+      },
+      {
+        "Controller": "PriceOfferTestimonialController",
+        "Action": "Add",
+        "HttpMethod": 2,
+        "RoutePrefix": "/priceoffertestimonial",
+        "Route": "/priceoffertestimonial/add",
+        "Exposure": 1,
+        "OwnershipConfidence": 0.65
+      },
+      {
+        "Controller": "PriceOfferTestimonialController",
+        "Action": "Testimonials",
+        "HttpMethod": 1,
+        "RoutePrefix": "/priceoffertestimonial",
+        "Route": "/priceoffertestimonial/testimonials",
+        "Exposure": 1,
+        "OwnershipConfidence": 0.65
+      },
+      {
+        "Controller": "PriceOfferTestimonialController",
+        "Action": "Update",
+        "HttpMethod": 3,
+        "RoutePrefix": "/priceoffertestimonial",
+        "Route": "/priceoffertestimonial/update",
+        "Exposure": 1,
+        "OwnershipConfidence": 0.65
+      }
+    ],
+    "InternalApis": [],
+    "EventContracts": [
+      {
+        "Name": "Arabam.Core.Components.EventSource.Interfaces",
+        "Direction": 0,
+        "QueueOrTopic": "Arabam.Core.Components.EventSource.Interfaces",
+        "RelatedDomain": "",
+        "Source": "ExternalDependencyMap",
+        "Confidence": 0.65,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.Core.Dtos.Requests.Auction.EventSource",
+        "Direction": 0,
+        "QueueOrTopic": "Arabam.Core.Dtos.Requests.Auction.EventSource",
+        "RelatedDomain": "",
+        "Source": "ExternalDependencyMap",
+        "Confidence": 0.65,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.Core.Dtos.Requests.PriceOffer.EventSource",
+        "Direction": 0,
+        "QueueOrTopic": "Arabam.Core.Dtos.Requests.PriceOffer.EventSource",
+        "RelatedDomain": "",
+        "Source": "ExternalDependencyMap",
+        "Confidence": 0.65,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.Core.Facades.Converters.EventSource.EventSourceAdvertSearchModel",
+        "Direction": 0,
+        "QueueOrTopic": "Arabam.Core.Facades.Converters.EventSource.EventSourceAdvertSearchModel",
+        "RelatedDomain": "",
+        "Source": "ExternalDependencyMap",
+        "Confidence": 0.65,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.Core.Services.EventSource.Interfaces",
+        "Direction": 0,
+        "QueueOrTopic": "Arabam.Core.Services.EventSource.Interfaces",
+        "RelatedDomain": "",
+        "Source": "ExternalDependencyMap",
+        "Confidence": 0.65,
+        "Notes": ""
+      },
+      {
+        "Name": "inferred",
+        "Direction": 1,
+        "QueueOrTopic": "",
+        "RelatedDomain": "Price",
+        "Source": "ProducerConsumerRelationship",
+        "Confidence": 0.6,
+        "Notes": "PriceOfferRecomputeProducerJob -\u003E PriceOfferRecomputeConsumerJob"
+      },
+      {
+        "Name": "AddPriceOfferLiveActivityLogKafkaMessage",
+        "Direction": 2,
+        "QueueOrTopic": "",
+        "RelatedDomain": "",
+        "Source": "HangfireConsumerJob",
+        "Confidence": 0.97,
+        "Notes": "AddPriceOfferLiveActivityLogConsumerJob"
+      },
+      {
+        "Name": "EventSourcePriceOfferCallDto",
+        "Direction": 2,
+        "QueueOrTopic": "",
+        "RelatedDomain": "",
+        "Source": "HangfireConsumerJob",
+        "Confidence": 0.97,
+        "Notes": "PriceOfferCallConsumerJob"
+      },
+      {
+        "Name": "PriceOfferAnonymizationDateUpdatedMessage",
+        "Direction": 2,
+        "QueueOrTopic": "",
+        "RelatedDomain": "",
+        "Source": "HangfireConsumerJob",
+        "Confidence": 0.97,
+        "Notes": "PriceOfferAnonymizationDateConsumerJob"
+      },
+      {
+        "Name": "PriceOfferAnonymizationMessage",
+        "Direction": 2,
+        "QueueOrTopic": "",
+        "RelatedDomain": "",
+        "Source": "HangfireConsumerJob",
+        "Confidence": 0.97,
+        "Notes": "PriceOfferAnonymizationConsumerJob"
+      },
+      {
+        "Name": "PriceOfferForNoReservationSendWpAgentKafkaMessage",
+        "Direction": 2,
+        "QueueOrTopic": "",
+        "RelatedDomain": "",
+        "Source": "HangfireConsumerJob",
+        "Confidence": 0.97,
+        "Notes": "PriceOfferForNoReservationSendWpAgentConsumerJob"
+      },
+      {
+        "Name": "PriceOfferLiveActivityDispatchKafkaMessage",
+        "Direction": 2,
+        "QueueOrTopic": "",
+        "RelatedDomain": "",
+        "Source": "HangfireConsumerJob",
+        "Confidence": 0.97,
+        "Notes": "PriceOfferLiveActivityEventDispatcherConsumerJob"
+      },
+      {
+        "Name": "PriceOfferMobileIdentifierMessage",
+        "Direction": 2,
+        "QueueOrTopic": "",
+        "RelatedDomain": "",
+        "Source": "HangfireConsumerJob",
+        "Confidence": 0.97,
+        "Notes": "PriceOfferMobileIdentifierConsumer"
+      },
+      {
+        "Name": "PriceOfferNotificationLogMessage",
+        "Direction": 2,
+        "QueueOrTopic": "",
+        "RelatedDomain": "",
+        "Source": "HangfireConsumerJob",
+        "Confidence": 0.97,
+        "Notes": "PriceOfferNotificationLogConsumerJob"
+      },
+      {
+        "Name": "PriceOfferOutOfDateReservationSmsMessage",
+        "Direction": 2,
+        "QueueOrTopic": "",
+        "RelatedDomain": "",
+        "Source": "HangfireConsumerJob",
+        "Confidence": 0.97,
+        "Notes": "PriceOfferOutOfDateReservationSmsConsumerJob"
+      },
+      {
+        "Name": "PriceOfferRecomputeDto",
+        "Direction": 2,
+        "QueueOrTopic": "",
+        "RelatedDomain": "",
+        "Source": "HangfireConsumerJob",
+        "Confidence": 0.97,
+        "Notes": "PriceOfferRecomputeConsumerJob"
+      },
+      {
+        "Name": "PriceOfferUnavailableTypeAddedMessage",
+        "Direction": 2,
+        "QueueOrTopic": "",
+        "RelatedDomain": "",
+        "Source": "HangfireConsumerJob",
+        "Confidence": 0.97,
+        "Notes": "PriceOfferAddUnavailableTypeConsumerJob"
+      },
+      {
+        "Name": "ProcessWPTrinksatReservationAgentKafkaMessage",
+        "Direction": 2,
+        "QueueOrTopic": "",
+        "RelatedDomain": "",
+        "Source": "HangfireConsumerJob",
+        "Confidence": 0.97,
+        "Notes": "PriceOfferProcessWPTrinksatReservationAgentConsumerJob"
+      },
+      {
+        "Name": "ProduceInsiderUserEvent",
+        "Direction": 2,
+        "QueueOrTopic": "",
+        "RelatedDomain": "",
+        "Source": "HangfireConsumerJob",
+        "Confidence": 0.97,
+        "Notes": "PriceOfferRecomputeInsiderUserEventJob"
+      }
+    ],
+    "ContractNotes": [
+      "Admin endpoints detected; operational auth boundaries must be separated from public API."
+    ],
+    "ContractCompleteness": 0.7634099804305288
+  },
+  "DataOwnershipPlan": {
+    "DomainCandidate": "Price",
+    "OwnedTables": [
+      {
+        "TableName": "AgreementAction",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 3,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Primary owned table; suitable for early extraction."
+      },
+      {
+        "TableName": "Brands",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 3,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Primary owned table; suitable for early extraction."
+      },
+      {
+        "TableName": "BundlePrice",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 0,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Table usage detected."
+      },
+      {
+        "TableName": "ContentMedia",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 3,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Primary owned table; suitable for early extraction."
+      },
+      {
+        "TableName": "DamageQuery",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 1,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Table usage detected."
+      },
+      {
+        "TableName": "Feedback",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 1,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Table usage detected."
+      },
+      {
+        "TableName": "Firm",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 3,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Primary owned table; suitable for early extraction."
+      },
+      {
+        "TableName": "FnSplit",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 3,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Primary owned table; suitable for early extraction."
+      },
+      {
+        "TableName": "GovdeSekilleri",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 3,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Primary owned table; suitable for early extraction."
+      },
+      {
+        "TableName": "LastOfferDisplayCancellations",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 3,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Primary owned table; suitable for early extraction."
+      },
+      {
+        "TableName": "Markalar",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 3,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Primary owned table; suitable for early extraction."
+      },
+      {
+        "TableName": "ModelGroups",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 3,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Primary owned table; suitable for early extraction."
+      },
+      {
+        "TableName": "NotificationLog",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 3,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Primary owned table; suitable for early extraction."
+      },
+      {
+        "TableName": "Offer",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 3,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Primary owned table; suitable for early extraction."
+      },
+      {
+        "TableName": "OfferFirm",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 3,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Primary owned table; suitable for early extraction."
+      },
+      {
+        "TableName": "OfferHistory",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 3,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Primary owned table; suitable for early extraction."
+      },
+      {
+        "TableName": "OfferLiveActivityLog",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 3,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Primary owned table; suitable for early extraction."
+      },
+      {
+        "TableName": "OfferUnavailable",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 3,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Primary owned table; suitable for early extraction."
+      },
+      {
+        "TableName": "OfferVehicleInfo",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 3,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Primary owned table; suitable for early extraction."
+      },
+      {
+        "TableName": "OfferWorkflowHistory",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 3,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Primary owned table; suitable for early extraction."
+      },
+      {
+        "TableName": "PreReservationControlsUserAnswers",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 3,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Primary owned table; suitable for early extraction."
+      },
+      {
+        "TableName": "PriceCheckStepInformation",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 0,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Table usage detected."
+      },
+      {
+        "TableName": "PriceOfferAction",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 0,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Table usage detected."
+      },
+      {
+        "TableName": "PriceOfferFeature",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 0,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Table usage detected."
+      },
+      {
+        "TableName": "PriceOfferReservation",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 0,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Table usage detected."
+      },
+      {
+        "TableName": "PriceOfferTestimonial",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 0,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Table usage detected."
+      },
+      {
+        "TableName": "PriceZone",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 0,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Table usage detected."
+      },
+      {
+        "TableName": "Recompute",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 3,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Primary owned table; suitable for early extraction."
+      },
+      {
+        "TableName": "RecomputeInsiderEventTracker",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 3,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Primary owned table; suitable for early extraction."
+      },
+      {
+        "TableName": "RecomputeNotificationPeriodRule",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 3,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Primary owned table; suitable for early extraction."
+      },
+      {
+        "TableName": "RecomputeNotificationRule",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 3,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Primary owned table; suitable for early extraction."
+      },
+      {
+        "TableName": "Renkler",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 3,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Primary owned table; suitable for early extraction."
+      },
+      {
+        "TableName": "ReservationLiveActivityLog",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 3,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Primary owned table; suitable for early extraction."
+      },
+      {
+        "TableName": "ReservationNoShowOffer",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 3,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Primary owned table; suitable for early extraction."
+      },
+      {
+        "TableName": "SalesPoint",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 3,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Primary owned table; suitable for early extraction."
+      },
+      {
+        "TableName": "TestMember",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 3,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Primary owned table; suitable for early extraction."
+      },
+      {
+        "TableName": "UnavailableRecompute",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 3,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Primary owned table; suitable for early extraction."
+      },
+      {
+        "TableName": "Vitesler",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 3,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Primary owned table; suitable for early extraction."
+      },
+      {
+        "TableName": "Yakitlar",
+        "Role": 0,
+        "OwnerDomain": "Price",
+        "AccessType": 3,
+        "IsShared": false,
+        "Confidence": 1,
+        "CanMoveIndependently": true,
+        "ReferencedByDomains": [],
+        "Notes": "Primary owned table; suitable for early extraction."
+      }
+    ],
+    "SharedTables": [
+      {
+        "TableName": "Advert",
+        "Role": 1,
+        "OwnerDomain": "",
+        "AccessType": 3,
+        "IsShared": true,
+        "Confidence": 0.65,
+        "CanMoveIndependently": false,
+        "ReferencedByDomains": [
+          "Advert",
+          "Expertise",
+          "Favorite",
+          "Member",
+          "Order",
+          "Summary"
+        ],
+        "Notes": "Shared table; extraction should include anti-corruption strategy and staged ownership split."
+      },
+      {
+        "TableName": "Conversation",
+        "Role": 1,
+        "OwnerDomain": "",
+        "AccessType": 3,
+        "IsShared": true,
+        "Confidence": 0.33,
+        "CanMoveIndependently": false,
+        "ReferencedByDomains": [
+          "Advert",
+          "Member"
+        ],
+        "Notes": "Shared table; extraction should include anti-corruption strategy and staged ownership split."
+      },
+      {
+        "TableName": "Members",
+        "Role": 1,
+        "OwnerDomain": "",
+        "AccessType": 3,
+        "IsShared": true,
+        "Confidence": 0.5,
+        "CanMoveIndependently": false,
+        "ReferencedByDomains": [
+          "Advert",
+          "Member"
+        ],
+        "Notes": "Shared table; extraction should include anti-corruption strategy and staged ownership split."
+      },
+      {
+        "TableName": "Models",
+        "Role": 1,
+        "OwnerDomain": "",
+        "AccessType": 3,
+        "IsShared": true,
+        "Confidence": 0.6,
+        "CanMoveIndependently": false,
+        "ReferencedByDomains": [
+          "Advert",
+          "Category"
+        ],
+        "Notes": "Shared table; extraction should include anti-corruption strategy and staged ownership split."
+      },
+      {
+        "TableName": "PriceOffer",
+        "Role": 1,
+        "OwnerDomain": "",
+        "AccessType": 3,
+        "IsShared": true,
+        "Confidence": 0.78,
+        "CanMoveIndependently": false,
+        "ReferencedByDomains": [
+          "Advert",
+          "Expertise"
+        ],
+        "Notes": "Shared table; extraction should include anti-corruption strategy and staged ownership split."
+      },
+      {
+        "TableName": "Reservation",
+        "Role": 1,
+        "OwnerDomain": "",
+        "AccessType": 3,
+        "IsShared": true,
+        "Confidence": 0.67,
+        "CanMoveIndependently": false,
+        "ReferencedByDomains": [
+          "Expertise"
+        ],
+        "Notes": "Shared table; extraction should include anti-corruption strategy and staged ownership split."
+      }
+    ],
+    "ReferencedTables": [],
+    "SharedDependencies": [
+      {
+        "ComponentName": "AdvertSearchQueryCommand",
+        "ComponentType": "common DTO",
+        "Recommendation": "refactor into contract package",
+        "Rationale": "Detected in v2\\Arabam.HttpClients\\ListingApi\\Dtos\\Commands\\AdvertSearchQueryCommand.cs. Referenced by 3 domain candidate(s)."
+      },
+      {
+        "ComponentName": "AppConfigController",
+        "ComponentType": "common configuration",
+        "Recommendation": "keep shared temporarily",
+        "Rationale": "Detected in v2\\Arabam.UI\\Arabam.Admin\\Areas\\Config\\Controllers\\AppConfigController.cs. Referenced by 0 domain candidate(s)."
+      },
+      {
+        "ComponentName": "ApplicationState",
+        "ComponentType": "common configuration",
+        "Recommendation": "keep shared temporarily",
+        "Rationale": "Detected in v2\\Arabam.Core\\Components\\Configurations\\ApplicationState.cs. Referenced by 0 domain candidate(s)."
+      },
+      {
+        "ComponentName": "ArabamConfig",
+        "ComponentType": "common configuration",
+        "Recommendation": "eliminate before extraction",
+        "Rationale": "Detected in v2\\Arabam.Core\\Components\\Configurations\\ArabamConfigModels.cs. Referenced by 3 domain candidate(s)."
+      },
+      {
+        "ComponentName": "ArabamConfigBuilder",
+        "ComponentType": "common configuration",
+        "Recommendation": "keep shared temporarily",
+        "Rationale": "Detected in v2\\Arabam.Core\\Components\\Configurations\\ArabamConfigBuilder.cs. Referenced by 0 domain candidate(s)."
+      },
+      {
+        "ComponentName": "ArabamServiceConfig",
+        "ComponentType": "common configuration",
+        "Recommendation": "keep shared temporarily",
+        "Rationale": "Detected in v2\\Arabam.Services\\Arabam.Hangfire\\Configs\\ArabamServiceConfig.cs. Referenced by 0 domain candidate(s)."
+      },
+      {
+        "ComponentName": "ArabamServiceConfigBuilder",
+        "ComponentType": "common configuration",
+        "Recommendation": "keep shared temporarily",
+        "Rationale": "Detected in v2\\Arabam.Services\\Arabam.Hangfire\\Configs\\ArabamServiceConfigBuilder.cs. Referenced by 0 domain candidate(s)."
+      },
+      {
+        "ComponentName": "BaseNotificationConfig",
+        "ComponentType": "common configuration",
+        "Recommendation": "keep shared temporarily",
+        "Rationale": "Detected in v2\\Arabam.Services\\Arabam.Hangfire\\Configs\\HangfireConfigModels.cs. Referenced by 0 domain candidate(s)."
+      },
+      {
+        "ComponentName": "BrowserHelper",
+        "ComponentType": "common configuration",
+        "Recommendation": "keep shared temporarily",
+        "Rationale": "Detected in v2\\Arabam.Core\\Components\\Configurations\\BrowserHelper.cs. Referenced by 0 domain candidate(s)."
+      },
+      {
+        "ComponentName": "CheckIsDraftStatusCommand",
+        "ComponentType": "common DTO",
+        "Recommendation": "refactor into contract package",
+        "Rationale": "Detected in v2\\Arabam.HttpClients\\CheckoutApi\\Dtos\\Commands\\CheckIsDraftStatusCommand.cs. Referenced by 2 domain candidate(s)."
+      },
+      {
+        "ComponentName": "ConfigAreaRegistration",
+        "ComponentType": "common configuration",
+        "Recommendation": "keep shared temporarily",
+        "Rationale": "Detected in v2\\Arabam.UI\\Arabam.Admin\\Areas\\Config\\ConfigAreaRegistration.cs. Referenced by 0 domain candidate(s)."
+      },
+      {
+        "ComponentName": "ConfigController",
+        "ComponentType": "common configuration",
+        "Recommendation": "keep shared temporarily",
+        "Rationale": "Detected in v2\\Arabam.UI\\Arabam.Api\\Controllers\\ConfigController.cs. Referenced by 0 domain candidate(s)."
+      },
+      {
+        "ComponentName": "ConfigHelper",
+        "ComponentType": "common configuration",
+        "Recommendation": "keep shared temporarily",
+        "Rationale": "Detected in v2\\Arabam.Helper\\ConfigHelper.cs. Referenced by 0 domain candidate(s)."
+      },
+      {
+        "ComponentName": "ConfigurationBuilderBase",
+        "ComponentType": "common configuration",
+        "Recommendation": "keep shared temporarily",
+        "Rationale": "Detected in v2\\Arabam.Core\\Components\\Configurations\\ConfigurationBuilderBase.cs. Referenced by 0 domain candidate(s)."
+      },
+      {
+        "ComponentName": "ConfigurationService",
+        "ComponentType": "common configuration",
+        "Recommendation": "keep shared temporarily",
+        "Rationale": "Detected in v2\\Arabam.Core\\Services\\Configurations\\Implementations\\ConfigurationService.cs. Referenced by 0 domain candidate(s)."
+      },
+      {
+        "ComponentName": "CrawlerConfig",
+        "ComponentType": "common configuration",
+        "Recommendation": "keep shared temporarily",
+        "Rationale": "Detected in v2\\Arabam.Crawler\\Core\\Components\\Configurations\\CrawlerConfig.cs. Referenced by 0 domain candidate(s)."
+      },
+      {
+        "ComponentName": "DiscountType",
+        "ComponentType": "common DTO",
+        "Recommendation": "refactor into contract package",
+        "Rationale": "Detected in v2\\Arabam.HttpClients\\CheckoutApi\\Dtos\\Enums\\DiscountType.cs. Referenced by 2 domain candidate(s)."
+      },
+      {
+        "ComponentName": "ExpertiseReservationRequest",
+        "ComponentType": "common DTO",
+        "Recommendation": "refactor into contract package",
+        "Rationale": "Detected in v2\\Arabam.Core\\Dtos\\Requests\\Expertises\\ExpertiseReservationRequest.cs. Referenced by 2 domain candidate(s)."
+      },
+      {
+        "ComponentName": "FavoritedAdvertsSearchQuery",
+        "ComponentType": "common DTO",
+        "Recommendation": "refactor into contract package",
+        "Rationale": "Detected in v2\\Arabam.Core\\Dtos\\Requests\\Favorites\\Adverts\\FavoritedAdvertsSearchQuery.cs. Referenced by 2 domain candidate(s)."
+      },
+      {
+        "ComponentName": "FavoritedSearchListQuery",
+        "ComponentType": "common DTO",
+        "Recommendation": "refactor into contract package",
+        "Rationale": "Detected in v2\\Arabam.Core\\Dtos\\Requests\\Favorites\\Lists\\FavoritedSearchListQuery.cs. Referenced by 2 domain candidate(s)."
+      },
+      {
+        "ComponentName": "FilterConfig",
+        "ComponentType": "common configuration",
+        "Recommendation": "keep shared temporarily",
+        "Rationale": "Detected in v2\\Arabam.UI\\Arabam.Api\\App_Start\\FilterConfig.cs. Referenced by 0 domain candidate(s)."
+      },
+      {
+        "ComponentName": "HelpPageConfigurationExtensions",
+        "ComponentType": "common configuration",
+        "Recommendation": "keep shared temporarily",
+        "Rationale": "Detected in v2\\Arabam.UI\\Arabam.Api\\Areas\\HelpPage\\HelpPageConfigurationExtensions.cs. Referenced by 0 domain candidate(s)."
+      },
+      {
+        "ComponentName": "IConfigurationService",
+        "ComponentType": "common configuration",
+        "Recommendation": "keep shared temporarily",
+        "Rationale": "Detected in v2\\Arabam.Core\\Services\\Configurations\\Interfaces\\IConfigurationService.cs. Referenced by 0 domain candidate(s)."
+      },
+      {
+        "ComponentName": "ImageDimension",
+        "ComponentType": "common DTO",
+        "Recommendation": "refactor into contract package",
+        "Rationale": "Detected in v2\\Arabam.Core\\Dtos\\Requests\\Images\\ImageDimension.cs. Referenced by 2 domain candidate(s)."
+      },
+      {
+        "ComponentName": "InsiderUserAttributeUpsertMessage",
+        "ComponentType": "common DTO",
+        "Recommendation": "refactor into contract package",
+        "Rationale": "Detected in v2\\Arabam.Core\\Dtos\\Requests\\Messages\\Kafka\\InsiderUserAttributeUpsertMessage.cs. Referenced by 2 domain candidate(s)."
+      },
+      {
+        "ComponentName": "KeyValueDto",
+        "ComponentType": "common DTO",
+        "Recommendation": "refactor into contract package",
+        "Rationale": "Detected in v2\\Arabam.HttpClients\\AdvertManagementApi\\Dtos\\Base\\KeyValueDto.cs. Referenced by 3 domain candidate(s)."
+      },
+      {
+        "ComponentName": "LoadMoreRequest",
+        "ComponentType": "common DTO",
+        "Recommendation": "refactor into contract package",
+        "Rationale": "Detected in v2\\Arabam.Core\\Dtos\\Requests\\Utilities\\LoadMoreRequest.cs. Referenced by 2 domain candidate(s)."
+      },
+      {
+        "ComponentName": "LoginAdminUserInfo",
+        "ComponentType": "common DTO",
+        "Recommendation": "refactor into contract package",
+        "Rationale": "Detected in v2\\Arabam.Core\\Dtos\\Responses\\Admin\\LoginAdminUserInfo.cs. Referenced by 2 domain candidate(s)."
+      },
+      {
+        "ComponentName": "MemberMessageRequest",
+        "ComponentType": "common DTO",
+        "Recommendation": "refactor into contract package",
+        "Rationale": "Detected in v2\\Arabam.Core\\Dtos\\Requests\\Membership\\MemberMessageRequest.cs. Referenced by 2 domain candidate(s)."
+      },
+      {
+        "ComponentName": "OrderResponse",
+        "ComponentType": "common DTO",
+        "Recommendation": "refactor into contract package",
+        "Rationale": "Detected in v2\\Arabam.HttpClients\\CheckoutApi\\Dtos\\Responses\\OrderResponse.cs. Referenced by 3 domain candidate(s)."
+      },
+      {
+        "ComponentName": "PreReservationControlsConfig",
+        "ComponentType": "common configuration",
+        "Recommendation": "keep shared temporarily",
+        "Rationale": "Detected in v2\\Arabam.Domain\\Domains\\PriceOffers\\PreReservationControlsConfig.cs. Referenced by 0 domain candidate(s)."
+      },
+      {
+        "ComponentName": "RouteConfig",
+        "ComponentType": "common configuration",
+        "Recommendation": "keep shared temporarily",
+        "Rationale": "Detected in v2\\Arabam.UI\\Arabam.Admin\\App_Start\\RouteConfig.cs. Referenced by 0 domain candidate(s)."
+      },
+      {
+        "ComponentName": "SaveOrderRequest",
+        "ComponentType": "common DTO",
+        "Recommendation": "refactor into contract package",
+        "Rationale": "Detected in v2\\Arabam.Core\\Dtos\\Requests\\Orders\\SaveOrderRequest.cs. Referenced by 2 domain candidate(s)."
+      },
+      {
+        "ComponentName": "SaveSeoViewCommand",
+        "ComponentType": "common DTO",
+        "Recommendation": "refactor into contract package",
+        "Rationale": "Detected in v2\\Arabam.HttpClients\\ContentApi\\Dtos\\Commands\\SaveSeoViewCommand.cs. Referenced by 2 domain candidate(s)."
+      },
+      {
+        "ComponentName": "SearchQueryCommand",
+        "ComponentType": "common DTO",
+        "Recommendation": "refactor into contract package",
+        "Rationale": "Detected in v2\\Arabam.HttpClients\\ListingApi\\Dtos\\Commands\\SearchQueryCommand.cs. Referenced by 2 domain candidate(s)."
+      },
+      {
+        "ComponentName": "SkipEmptyContractResolver",
+        "ComponentType": "common configuration",
+        "Recommendation": "keep shared temporarily",
+        "Rationale": "Detected in v2\\Arabam.Core\\Components\\Configurations\\SkipEmptyContractResolver.cs. Referenced by 1 domain candidate(s)."
+      },
+      {
+        "ComponentName": "to",
+        "ComponentType": "common configuration",
+        "Recommendation": "keep shared temporarily",
+        "Rationale": "Detected in v2\\Arabam.UI\\Arabam.Api\\Areas\\HelpPage\\App_Start\\HelpPageConfig.cs. Referenced by 0 domain candidate(s)."
+      },
+      {
+        "ComponentName": "UserAgentHelper",
+        "ComponentType": "common configuration",
+        "Recommendation": "keep shared temporarily",
+        "Rationale": "Detected in v2\\Arabam.Core\\Components\\Configurations\\UserAgentHelper.cs. Referenced by 0 domain candidate(s)."
+      },
+      {
+        "ComponentName": "WebApiConfig",
+        "ComponentType": "common configuration",
+        "Recommendation": "keep shared temporarily",
+        "Rationale": "Detected in v2\\Arabam.UI\\Arabam.Api\\App_Start\\WebApiConfig.cs. Referenced by 0 domain candidate(s)."
+      },
+      {
+        "ComponentName": "WebPackConfig",
+        "ComponentType": "common configuration",
+        "Recommendation": "keep shared temporarily",
+        "Rationale": "Detected in v2\\Arabam.Core\\Components\\Configurations\\WebPackConfig.cs. Referenced by 0 domain candidate(s)."
+      }
+    ],
+    "RequiresSharedDatabasePhase": true,
+    "SupportsImmediateIsolation": false,
+    "DatabaseSplitStrategy": "Move owned tables first, keep shared tables in monolith DB temporarily, and phase ownership split with outbox/replication.",
+    "MigrationNotes": [
+      "Owned tables: 39",
+      "Shared tables: 6",
+      "Referenced tables: 0",
+      "Ownerless or ambiguous tables affecting this domain: Advert, Conversation, Members, Models, PriceOffer, Reservation",
+      "Shared table coupling requires staged migration and temporary shared database period."
+    ]
+  },
+  "IntegrationBoundaryPlan": {
+    "DomainCandidate": "Price",
+    "InboundIntegrations": [
+      {
+        "Name": "Advert",
+        "Direction": "Inbound",
+        "DependencyType": "shared-data",
+        "RelatedDomain": "Advert",
+        "DependencyKind": "write",
+        "Intensity": 5,
+        "Confidence": 0.95,
+        "Notes": ""
+      },
+      {
+        "Name": "Category",
+        "Direction": "Inbound",
+        "DependencyType": "shared-data",
+        "RelatedDomain": "Category",
+        "DependencyKind": "read-\u003Ewrite",
+        "Intensity": 1,
+        "Confidence": 0.55,
+        "Notes": ""
+      },
+      {
+        "Name": "Expertise",
+        "Direction": "Inbound",
+        "DependencyType": "shared-data",
+        "RelatedDomain": "Expertise",
+        "DependencyKind": "write",
+        "Intensity": 3,
+        "Confidence": 0.75,
+        "Notes": ""
+      },
+      {
+        "Name": "Favorite",
+        "Direction": "Inbound",
+        "DependencyType": "shared-data",
+        "RelatedDomain": "Favorite",
+        "DependencyKind": "write",
+        "Intensity": 1,
+        "Confidence": 0.55,
+        "Notes": ""
+      },
+      {
+        "Name": "Member",
+        "Direction": "Inbound",
+        "DependencyType": "shared-data",
+        "RelatedDomain": "Member",
+        "DependencyKind": "write",
+        "Intensity": 2,
+        "Confidence": 0.65,
+        "Notes": ""
+      },
+      {
+        "Name": "Order",
+        "Direction": "Inbound",
+        "DependencyType": "shared-data",
+        "RelatedDomain": "Order",
+        "DependencyKind": "write",
+        "Intensity": 1,
+        "Confidence": 0.55,
+        "Notes": ""
+      },
+      {
+        "Name": "Summary",
+        "Direction": "Inbound",
+        "DependencyType": "shared-data",
+        "RelatedDomain": "Summary",
+        "DependencyKind": "read-\u003Ewrite",
+        "Intensity": 1,
+        "Confidence": 0.55,
+        "Notes": ""
+      }
+    ],
+    "OutboundIntegrations": [
+      {
+        "Name": "Advert",
+        "Direction": "Outbound",
+        "DependencyType": "shared-data",
+        "RelatedDomain": "Advert",
+        "DependencyKind": "write",
+        "Intensity": 7,
+        "Confidence": 0.95,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.Api.Attributes",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.Core.Components.EventSource.Interfaces",
+        "Direction": "Outbound",
+        "DependencyType": "queue-event",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.7,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.Core.Dtos.Requests.Auction.EventSource",
+        "Direction": "Outbound",
+        "DependencyType": "queue-event",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.7,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.Core.Dtos.Requests.PriceOffer.EventSource",
+        "Direction": "Outbound",
+        "DependencyType": "queue-event",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.7,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.Core.Dtos.Responses.ApiUsers",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.Core.Facades.Converters.EventSource.EventSourceAdvertSearchModel",
+        "Direction": "Outbound",
+        "DependencyType": "queue-event",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.7,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.Core.Services.EventSource.Interfaces",
+        "Direction": "Outbound",
+        "DependencyType": "queue-event",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.7,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.HttpClients.Base",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "Arabam.HttpClients.EidsApi",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "Arabam.HttpClients.EidsApi",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.HttpClients.GarageApi",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "Arabam.HttpClients.GarageApi",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.HttpClients.GarageApi.Dtos.Commands",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "Arabam.HttpClients.GarageApi.Dtos.Commands",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.HttpClients.GarageApi.Dtos.Enums",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "Arabam.HttpClients.GarageApi.Dtos.Enums",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.HttpClients.GarageApi.Dtos.Responses",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "Arabam.HttpClients.GarageApi.Dtos.Responses",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.HttpClients.IntegrationApi",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "Arabam.HttpClients.IntegrationApi",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.HttpClients.IntegrationApi.Dtos.Commands.NewFolder",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "Arabam.HttpClients.IntegrationApi.Dtos.Commands.NewFolder",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.HttpClients.MembershipApi",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "Arabam.HttpClients.MembershipApi",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.HttpClients.MembershipApi.Dtos.Enums",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "Arabam.HttpClients.MembershipApi.Dtos.Enums",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.HttpClients.PriceSuggestionApi",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "Arabam.HttpClients.PriceSuggestionApi",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.HttpClients.PriceSuggestionApi.Dtos.Command",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "Arabam.HttpClients.PriceSuggestionApi.Dtos.Command",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.HttpClients.PriceSuggestionApi.Dtos.Command.Membership",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "Arabam.HttpClients.PriceSuggestionApi.Dtos.Command.Membership",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.HttpClients.PriceSuggestionApi.Dtos.Response",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "Arabam.HttpClients.PriceSuggestionApi.Dtos.Response",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.HttpClients.PriceSuggestionApi.Dtos.Response.Content",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "Arabam.HttpClients.PriceSuggestionApi.Dtos.Response.Content",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.HttpClients.PriceSuggestionApi.Dtos.Response.Membership",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "Arabam.HttpClients.PriceSuggestionApi.Dtos.Response.Membership",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.HttpClients.PricingApi",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "Arabam.HttpClients.PricingApi",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.HttpClients.PricingApi.Dtos.Commands",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "Arabam.HttpClients.PricingApi.Dtos.Commands",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.HttpClients.PricingApi.Dtos.Enums",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "Arabam.HttpClients.PricingApi.Dtos.Enums",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.HttpClients.PricingApi.Dtos.Responses",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "Arabam.HttpClients.PricingApi.Dtos.Responses",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.HttpClients.PricingManagementApi",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "Arabam.HttpClients.PricingManagementApi",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.HttpClients.TopsReservationApi",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "Arabam.HttpClients.TopsReservationApi",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.HttpClients.TopsReservationApi.Dtos.Commands.PurchaseCarWorkflow",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "Arabam.HttpClients.TopsReservationApi.Dtos.Commands.PurchaseCarWorkflow",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "Arabam.HttpClients.TopsReservationApi.Dtos.Responses.Expert",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "Arabam.HttpClients.TopsReservationApi.Dtos.Responses.Expert",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "Category",
+        "Direction": "Outbound",
+        "DependencyType": "shared-data",
+        "RelatedDomain": "Category",
+        "DependencyKind": "write-\u003Eread",
+        "Intensity": 1,
+        "Confidence": 0.55,
+        "Notes": ""
+      },
+      {
+        "Name": "Expertise",
+        "Direction": "Outbound",
+        "DependencyType": "shared-data",
+        "RelatedDomain": "Expertise",
+        "DependencyKind": "write",
+        "Intensity": 3,
+        "Confidence": 0.75,
+        "Notes": ""
+      },
+      {
+        "Name": "Favorite",
+        "Direction": "Outbound",
+        "DependencyType": "shared-data",
+        "RelatedDomain": "Favorite",
+        "DependencyKind": "write",
+        "Intensity": 1,
+        "Confidence": 0.55,
+        "Notes": ""
+      },
+      {
+        "Name": "GarageApiClient",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "GarageApiClient",
+        "Direction": "Outbound",
+        "DependencyType": "third-party",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": ""
+      },
+      {
+        "Name": "GarageApiClient",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "IntegrationApiClient",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "IntegrationApiClient",
+        "Direction": "Outbound",
+        "DependencyType": "third-party",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": ""
+      },
+      {
+        "Name": "IntegrationApiClient",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "Member",
+        "Direction": "Outbound",
+        "DependencyType": "shared-data",
+        "RelatedDomain": "Member",
+        "DependencyKind": "write",
+        "Intensity": 2,
+        "Confidence": 0.65,
+        "Notes": ""
+      },
+      {
+        "Name": "MembershipApiClient",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "MembershipApiClient",
+        "Direction": "Outbound",
+        "DependencyType": "third-party",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": ""
+      },
+      {
+        "Name": "MembershipApiClient",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "Order",
+        "Direction": "Outbound",
+        "DependencyType": "shared-data",
+        "RelatedDomain": "Order",
+        "DependencyKind": "write",
+        "Intensity": 1,
+        "Confidence": 0.55,
+        "Notes": ""
+      },
+      {
+        "Name": "PriceSuggestionApiClient",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "PriceSuggestionApiClient",
+        "Direction": "Outbound",
+        "DependencyType": "third-party",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": ""
+      },
+      {
+        "Name": "PriceSuggestionApiClient",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "PricingApiClient",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "PricingApiClient",
+        "Direction": "Outbound",
+        "DependencyType": "third-party",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": ""
+      },
+      {
+        "Name": "PricingApiClient",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "PricingManagementApiClient",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "PricingManagementApiClient",
+        "Direction": "Outbound",
+        "DependencyType": "third-party",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": ""
+      },
+      {
+        "Name": "PricingManagementApiClient",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "Summary",
+        "Direction": "Outbound",
+        "DependencyType": "shared-data",
+        "RelatedDomain": "Summary",
+        "DependencyKind": "write-\u003Eread",
+        "Intensity": 1,
+        "Confidence": 0.55,
+        "Notes": ""
+      },
+      {
+        "Name": "TopsReservationApiClient",
+        "Direction": "Outbound",
+        "DependencyType": "http-client",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": "HTTP client dependency from external map."
+      },
+      {
+        "Name": "TopsReservationApiClient",
+        "Direction": "Outbound",
+        "DependencyType": "third-party",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.75,
+        "Notes": ""
+      },
+      {
+        "Name": "TopsReservationApiClient",
+        "Direction": "Outbound",
+        "DependencyType": "external-api",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.8,
+        "Notes": ""
+      },
+      {
+        "Name": "Unmapped",
+        "Direction": "Outbound",
+        "DependencyType": "shared-data",
+        "RelatedDomain": "Unmapped",
+        "DependencyKind": "read/write",
+        "Intensity": 1,
+        "Confidence": 0.55,
+        "Notes": ""
+      },
+      {
+        "Name": "Unmapped",
+        "Direction": "Outbound",
+        "DependencyType": "domain-call",
+        "RelatedDomain": "Unmapped",
+        "DependencyKind": "internal-call",
+        "Intensity": 1,
+        "Confidence": 0.55,
+        "Notes": ""
+      }
+    ],
+    "InternalServiceDependencies": [
+      {
+        "Name": "Advert",
+        "Direction": "Internal",
+        "DependencyType": "domain-dependency",
+        "RelatedDomain": "Advert",
+        "DependencyKind": "write",
+        "Intensity": 7,
+        "Confidence": 0.95,
+        "Notes": ""
+      },
+      {
+        "Name": "Advert",
+        "Direction": "Internal",
+        "DependencyType": "domain-dependent",
+        "RelatedDomain": "Advert",
+        "DependencyKind": "write",
+        "Intensity": 5,
+        "Confidence": 0.95,
+        "Notes": ""
+      },
+      {
+        "Name": "Advert (read/write, 1)",
+        "Direction": "Internal",
+        "DependencyType": "internal-call",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.7,
+        "Notes": ""
+      },
+      {
+        "Name": "Advert (write, 7)",
+        "Direction": "Internal",
+        "DependencyType": "internal-call",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.7,
+        "Notes": ""
+      },
+      {
+        "Name": "Category",
+        "Direction": "Internal",
+        "DependencyType": "domain-dependent",
+        "RelatedDomain": "Category",
+        "DependencyKind": "read-\u003Ewrite",
+        "Intensity": 1,
+        "Confidence": 0.55,
+        "Notes": ""
+      },
+      {
+        "Name": "Category",
+        "Direction": "Internal",
+        "DependencyType": "domain-dependency",
+        "RelatedDomain": "Category",
+        "DependencyKind": "write-\u003Eread",
+        "Intensity": 1,
+        "Confidence": 0.55,
+        "Notes": ""
+      },
+      {
+        "Name": "Category (write-\u003Eread, 1)",
+        "Direction": "Internal",
+        "DependencyType": "internal-call",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.7,
+        "Notes": ""
+      },
+      {
+        "Name": "Expertise",
+        "Direction": "Internal",
+        "DependencyType": "domain-dependent",
+        "RelatedDomain": "Expertise",
+        "DependencyKind": "write",
+        "Intensity": 3,
+        "Confidence": 0.75,
+        "Notes": ""
+      },
+      {
+        "Name": "Expertise",
+        "Direction": "Internal",
+        "DependencyType": "domain-dependency",
+        "RelatedDomain": "Expertise",
+        "DependencyKind": "write",
+        "Intensity": 3,
+        "Confidence": 0.75,
+        "Notes": ""
+      },
+      {
+        "Name": "Expertise (read/write, 1)",
+        "Direction": "Internal",
+        "DependencyType": "internal-call",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.7,
+        "Notes": ""
+      },
+      {
+        "Name": "Expertise (write, 3)",
+        "Direction": "Internal",
+        "DependencyType": "internal-call",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.7,
+        "Notes": ""
+      },
+      {
+        "Name": "Favorite",
+        "Direction": "Internal",
+        "DependencyType": "domain-dependent",
+        "RelatedDomain": "Favorite",
+        "DependencyKind": "write",
+        "Intensity": 1,
+        "Confidence": 0.55,
+        "Notes": ""
+      },
+      {
+        "Name": "Favorite",
+        "Direction": "Internal",
+        "DependencyType": "domain-dependency",
+        "RelatedDomain": "Favorite",
+        "DependencyKind": "write",
+        "Intensity": 1,
+        "Confidence": 0.55,
+        "Notes": ""
+      },
+      {
+        "Name": "Favorite (write, 1)",
+        "Direction": "Internal",
+        "DependencyType": "internal-call",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.7,
+        "Notes": ""
+      },
+      {
+        "Name": "Member",
+        "Direction": "Internal",
+        "DependencyType": "domain-dependent",
+        "RelatedDomain": "Member",
+        "DependencyKind": "write",
+        "Intensity": 2,
+        "Confidence": 0.65,
+        "Notes": ""
+      },
+      {
+        "Name": "Member",
+        "Direction": "Internal",
+        "DependencyType": "domain-dependency",
+        "RelatedDomain": "Member",
+        "DependencyKind": "write",
+        "Intensity": 2,
+        "Confidence": 0.65,
+        "Notes": ""
+      },
+      {
+        "Name": "Member (write, 2)",
+        "Direction": "Internal",
+        "DependencyType": "internal-call",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.7,
+        "Notes": ""
+      },
+      {
+        "Name": "Member (write-\u003Eread, 1)",
+        "Direction": "Internal",
+        "DependencyType": "internal-call",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.7,
+        "Notes": ""
+      },
+      {
+        "Name": "Order",
+        "Direction": "Internal",
+        "DependencyType": "domain-dependent",
+        "RelatedDomain": "Order",
+        "DependencyKind": "write",
+        "Intensity": 1,
+        "Confidence": 0.55,
+        "Notes": ""
+      },
+      {
+        "Name": "Order",
+        "Direction": "Internal",
+        "DependencyType": "domain-dependency",
+        "RelatedDomain": "Order",
+        "DependencyKind": "write",
+        "Intensity": 1,
+        "Confidence": 0.55,
+        "Notes": ""
+      },
+      {
+        "Name": "Order (write, 1)",
+        "Direction": "Internal",
+        "DependencyType": "internal-call",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.7,
+        "Notes": ""
+      },
+      {
+        "Name": "Summary",
+        "Direction": "Internal",
+        "DependencyType": "domain-dependency",
+        "RelatedDomain": "Summary",
+        "DependencyKind": "write-\u003Eread",
+        "Intensity": 1,
+        "Confidence": 0.55,
+        "Notes": ""
+      },
+      {
+        "Name": "Summary",
+        "Direction": "Internal",
+        "DependencyType": "domain-dependent",
+        "RelatedDomain": "Summary",
+        "DependencyKind": "read-\u003Ewrite",
+        "Intensity": 1,
+        "Confidence": 0.55,
+        "Notes": ""
+      },
+      {
+        "Name": "Summary (write-\u003Eread, 1)",
+        "Direction": "Internal",
+        "DependencyType": "internal-call",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.7,
+        "Notes": ""
+      },
+      {
+        "Name": "Unmapped",
+        "Direction": "Internal",
+        "DependencyType": "domain-dependency",
+        "RelatedDomain": "Unmapped",
+        "DependencyKind": "read/write",
+        "Intensity": 1,
+        "Confidence": 0.55,
+        "Notes": ""
+      },
+      {
+        "Name": "Unmapped (internal-call, 1)",
+        "Direction": "Internal",
+        "DependencyType": "internal-call",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.7,
+        "Notes": ""
+      },
+      {
+        "Name": "Unmapped (read/write, 1)",
+        "Direction": "Internal",
+        "DependencyType": "internal-call",
+        "RelatedDomain": "",
+        "DependencyKind": "",
+        "Intensity": 0,
+        "Confidence": 0.7,
+        "Notes": ""
+      }
+    ],
+    "AntiCorruptionLayerNeeds": [
+      "Legacy adapters required for risks: HttpContext usage",
+      "Shared-data dependencies require anti-corruption API facade instead of direct table access.",
+      "External API dependencies should be wrapped with stable gateway contracts."
+    ],
+    "IntegrationRisks": [
+      "High outbound integration count may delay independent deployment.",
+      "Multiple inbound dependencies increase cutover coordination complexity."
+    ],
+    "NeedsAntiCorruptionLayer": true,
+    "Summary": "84 outbound and 7 inbound integration links detected; 3 anti-corruption requirement(s) inferred."
+  },
+  "StranglerMigrationPlan": {
+    "DomainCandidate": "Price",
+    "ExtractionStrategy": 1,
+    "ReadOnlyFirstCandidate": true,
+    "StagedMigrationRecommended": true,
+    "Phases": [
+      {
+        "PhaseOrder": 1,
+        "Name": "Stabilize Service Boundary",
+        "Objective": "Freeze and validate contracts for Price before extraction.",
+        "WorkItems": [
+          "Validate endpoint ownership and route coverage.",
+          "Capture baseline integration and dependency tests.",
+          "Introduce feature flags for traffic redirection."
+        ],
+        "ExitCriteria": [
+          "Contract tests are green for public/admin/internal endpoints.",
+          "Canary routing switch is available."
+        ],
+        "CanRollback": true,
+        "RollbackStrategy": "Disable route switch and keep all traffic in monolith."
+      },
+      {
+        "PhaseOrder": 2,
+        "Name": "Read Path Extraction",
+        "Objective": "Move read-only APIs first to reduce data-write risk.",
+        "WorkItems": [
+          "Extract GET/HEAD endpoint handlers.",
+          "Route read traffic through service facade.",
+          "Keep writes in monolith and validate parity."
+        ],
+        "ExitCriteria": [
+          "Read API parity and latency targets are met.",
+          "Fallback route switch is verified."
+        ],
+        "CanRollback": true,
+        "RollbackStrategy": "Redirect read traffic back to monolith handlers."
+      },
+      {
+        "PhaseOrder": 3,
+        "Name": "Write Path and Data Transition",
+        "Objective": "Transition writes with controlled shared database period.",
+        "WorkItems": [
+          "Migrate command/write handlers and validation logic.",
+          "Introduce ownership-aware access control for shared tables.",
+          "Enable anti-corruption APIs for legacy/shared dependencies."
+        ],
+        "ExitCriteria": [
+          "Write consistency checks are green.",
+          "Operational rollback path is validated."
+        ],
+        "CanRollback": true,
+        "RollbackStrategy": "Switch write route and job dispatch back to monolith path."
+      },
+      {
+        "PhaseOrder": 4,
+        "Name": "Background Jobs and Monolith Decommission",
+        "Objective": "Migrate legacy-hosted jobs and remove monolith runtime dependency.",
+        "WorkItems": [
+          "Move compatible jobs to service host with new scheduling bootstrap.",
+          "Keep legacy-hosted jobs in monolith until config/runtime refactor is complete.",
+          "Delete dead code paths and redundant adapters."
+        ],
+        "ExitCriteria": [
+          "No production traffic executes in extracted monolith modules.",
+          "Runbook and SLO ownership transferred to service team."
+        ],
+        "CanRollback": false,
+        "RollbackStrategy": "N/A after monolith code path decommission."
+      }
+    ],
+    "MonolithRetentionItems": [
+      "AddPriceOfferLiveActivityLogConsumerJob: Schedule source depends on web/app config or legacy startup hosting.",
+      "PriceOfferAddUnavailableTypeConsumerJob: Schedule source depends on web/app config or legacy startup hosting.",
+      "PriceOfferAnonymizationConsumerJob: Schedule source depends on web/app config or legacy startup hosting.",
+      "PriceOfferAnonymizationDateConsumerJob: Schedule source depends on web/app config or legacy startup hosting.",
+      "PriceOfferAnonymizationJob: Schedule source depends on web/app config or legacy startup hosting.",
+      "PriceOfferCallConsumerJob: Schedule source depends on web/app config or legacy startup hosting.",
+      "PriceOfferForNoReservationJob: Schedule source depends on web/app config or legacy startup hosting.",
+      "PriceOfferForNoReservationSendWpAgentConsumerJob: Schedule source depends on web/app config or legacy startup hosting.",
+      "PriceOfferLiveActivityEventDispatcherConsumerJob: Schedule source depends on web/app config or legacy startup hosting.",
+      "PriceOfferMobileIdentifierConsumer: Schedule source depends on web/app config or legacy startup hosting.",
+      "PriceOfferNotificationLogConsumerJob: Schedule source depends on web/app config or legacy startup hosting.",
+      "PriceOfferOutOfDateReservationSmsConsumerJob: Schedule source depends on web/app config or legacy startup hosting.",
+      "PriceOfferProcessWPTrinksatReservationAgentConsumerJob: Schedule source depends on web/app config or legacy startup hosting.",
+      "PriceOfferRecomputeConsumerJob: Schedule source depends on web/app config or legacy startup hosting.",
+      "PriceOfferRecomputeProducerJob: Schedule source depends on web/app config or legacy startup hosting.",
+      "PriceOfferStatusJob: Schedule source depends on web/app config or legacy startup hosting.",
+      "UpdateMedianValuesJob: Schedule source depends on web/app config or legacy startup hosting."
+    ],
+    "RollbackConsiderations": [
+      "Maintain route-level feature flags for each migration phase.",
+      "Keep deployment artifacts for previous monolith-compatible build.",
+      "Preserve read path fallback to monolith until parity metrics stabilize.",
+      "Guard writes with toggle to disable service-owned mutations on shared tables."
+    ],
+    "MigrationBlockers": [
+      "Anti-corruption layer required for legacy/shared dependencies.",
+      "HttpContext usage: Porting to microservices requires extensive rewiring of request-scoped context logic.",
+      "Shared table coupling (6 table(s))."
+    ],
+    "MigrationNotes": [
+      "Read endpoint ratio: 81%",
+      "Coupling score considered: 5",
+      "Unknown chain count considered: 0",
+      "Legacy blockers considered: 1",
+      "Phase 1 recommendation context: Candidate should be postponed until unknown chains, shared data, and legacy blockers are reduced. Includes 30 Hangfire job(s) (consumer: 13, normal: 17)."
+    ]
+  },
+  "Blockers": [
+    "Anti-corruption layer required for legacy/shared dependencies.",
+    "HttpContext usage: Direct HttpContext access leaks transport concerns into domain/application layers.",
+    "HttpContext usage: Porting to microservices requires extensive rewiring of request-scoped context logic.",
+    "Shared table coupling (6 table(s))."
+  ],
+  "ReadinessNotes": [
+    "Boundary confidence: 92%",
+    "Contract completeness: 76%",
+    "Move owned tables first, keep shared tables in monolith DB temporarily, and phase ownership split with outbox/replication.",
+    "84 outbound and 7 inbound integration links detected; 3 anti-corruption requirement(s) inferred.",
+    "Extraction strategy: ReadOnlyFirst",
+    "Readiness (Low): Readiness=5. Cohesion=100, Coupling=5, SharedTables=6, ExternalDeps=75, LegacyRisks=1, CrossDomainWorkflows=7, UnknownChains=0, BackgroundJobs=30, ConsumerJobs=13, LegacyHostedJobs=17, EndpointOverlap=no, EndpointOwnershipConfidence=0.93."
+  ],
+  "GeneratedAtUtc": "2026-03-07T15:10:26.5594472+00:00"
+}

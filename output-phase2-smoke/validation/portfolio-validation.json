@@ -1,0 +1,86 @@
+{
+  "IntelligenceReport": {
+    "Scope": "MigrationIntelligence",
+    "GeneratedAtUtc": "2026-03-07T14:59:22.2761472+00:00",
+    "QualityScore": 78,
+    "Issues": [
+      {
+        "Code": "MI002",
+        "Severity": 2,
+        "Message": "Domain enumeration validation failed; inferred and rendered domain sets diverge.",
+        "Scope": "DomainEnumeration",
+        "Evidence": [
+          "Domains without endpoint clusters: Intelligence.",
+          "Domains without dependency edges: Intelligence."
+        ]
+      },
+      {
+        "Code": "MI006",
+        "Severity": 0,
+        "Message": "Some service dossiers have no mapped endpoints.",
+        "Scope": "ServiceDossiers",
+        "Evidence": [
+          "Intelligence"
+        ]
+      }
+    ],
+    "HasErrors": true,
+    "HasWarnings": false
+  },
+  "DomainReports": [
+    {
+      "Scope": "DomainDesign:PriceOffer",
+      "GeneratedAtUtc": "2026-03-07T14:59:22.2770969+00:00",
+      "QualityScore": 52,
+      "Issues": [
+        {
+          "Code": "DD002",
+          "Severity": 1,
+          "Message": "Boundary confidence is low; ownership should be verified manually.",
+          "Scope": "DomainDesign:PriceOffer",
+          "Evidence": []
+        },
+        {
+          "Code": "DD003",
+          "Severity": 1,
+          "Message": "No API endpoints mapped to this domain design.",
+          "Scope": "DomainDesign:PriceOffer",
+          "Evidence": []
+        },
+        {
+          "Code": "DD004",
+          "Severity": 2,
+          "Message": "Design has no structural components (controllers/repositories/tables).",
+          "Scope": "DomainDesign:PriceOffer",
+          "Evidence": []
+        },
+        {
+          "Code": "DD005",
+          "Severity": 1,
+          "Message": "No table ownership information found for this domain.",
+          "Scope": "DomainDesign:PriceOffer",
+          "Evidence": []
+        },
+        {
+          "Code": "DD007",
+          "Severity": 1,
+          "Message": "Direct extraction strategy may be optimistic given boundary confidence.",
+          "Scope": "DomainDesign:PriceOffer",
+          "Evidence": []
+        },
+        {
+          "Code": "DD008",
+          "Severity": 0,
+          "Message": "Boundary warnings exist but blockers list is empty.",
+          "Scope": "DomainDesign:PriceOffer",
+          "Evidence": []
+        }
+      ],
+      "HasErrors": true,
+      "HasWarnings": true
+    }
+  ],
+  "OverallScore": 65,
+  "GeneratedAtUtc": "2026-03-07T14:59:22.2782826+00:00",
+  "HasErrors": true
+}

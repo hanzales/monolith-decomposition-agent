@@ -1,0 +1,17 @@
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.DomainInference\bin\Debug\net10.0\Migration.Intelligence.DomainInference.deps.json
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.DomainInference\bin\Debug\net10.0\Migration.Intelligence.DomainInference.dll
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.DomainInference\bin\Debug\net10.0\Migration.Intelligence.DomainInference.pdb
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.DomainInference\bin\Debug\net10.0\Migration.Intelligence.Contracts.dll
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.DomainInference\bin\Debug\net10.0\Migration.Intelligence.Core.dll
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.DomainInference\bin\Debug\net10.0\Migration.Intelligence.Contracts.pdb
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.DomainInference\bin\Debug\net10.0\Migration.Intelligence.Core.pdb
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.DomainInference\obj\Debug\net10.0\Migration.Intelligence.DomainInference.csproj.AssemblyReference.cache
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.DomainInference\obj\Debug\net10.0\Migration.Intelligence.DomainInference.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.DomainInference\obj\Debug\net10.0\Migration.Intelligence.DomainInference.AssemblyInfoInputs.cache
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.DomainInference\obj\Debug\net10.0\Migration.Intelligence.DomainInference.AssemblyInfo.cs
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.DomainInference\obj\Debug\net10.0\Migration.Intelligence.DomainInference.csproj.CoreCompileInputs.cache
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.DomainInference\obj\Debug\net10.0\Migratio.46886EDD.Up2Date
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.DomainInference\obj\Debug\net10.0\Migration.Intelligence.DomainInference.dll
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.DomainInference\obj\Debug\net10.0\refint\Migration.Intelligence.DomainInference.dll
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.DomainInference\obj\Debug\net10.0\Migration.Intelligence.DomainInference.pdb
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.DomainInference\obj\Debug\net10.0\ref\Migration.Intelligence.DomainInference.dll

@@ -1,0 +1,17 @@
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.Design\obj\Debug\net10.0\Migration.Intelligence.Design.csproj.AssemblyReference.cache
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.Design\obj\Debug\net10.0\Migration.Intelligence.Design.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.Design\obj\Debug\net10.0\Migration.Intelligence.Design.AssemblyInfoInputs.cache
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.Design\obj\Debug\net10.0\Migration.Intelligence.Design.AssemblyInfo.cs
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.Design\obj\Debug\net10.0\Migration.Intelligence.Design.csproj.CoreCompileInputs.cache
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.Design\bin\Debug\net10.0\Migration.Intelligence.Design.deps.json
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.Design\bin\Debug\net10.0\Migration.Intelligence.Design.dll
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.Design\bin\Debug\net10.0\Migration.Intelligence.Design.pdb
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.Design\bin\Debug\net10.0\Migration.Intelligence.Contracts.dll
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.Design\bin\Debug\net10.0\Migration.Intelligence.Core.dll
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.Design\bin\Debug\net10.0\Migration.Intelligence.Core.pdb
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.Design\bin\Debug\net10.0\Migration.Intelligence.Contracts.pdb
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.Design\obj\Debug\net10.0\Migratio.39675622.Up2Date
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.Design\obj\Debug\net10.0\Migration.Intelligence.Design.dll
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.Design\obj\Debug\net10.0\refint\Migration.Intelligence.Design.dll
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.Design\obj\Debug\net10.0\Migration.Intelligence.Design.pdb
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.Design\obj\Debug\net10.0\ref\Migration.Intelligence.Design.dll

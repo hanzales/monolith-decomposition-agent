@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Migration.Intelligence.CodeAnalysis\Migration.Intelligence.CodeAnalysis.csproj" />
+      <ProjectReference Include="..\Migration.Intelligence.Contracts\Migration.Intelligence.Contracts.csproj" />
+      <ProjectReference Include="..\Migration.Intelligence.Core\Migration.Intelligence.Core.csproj" />
+      <ProjectReference Include="..\Migration.Intelligence.Generation\Migration.Intelligence.Generation.csproj" />
+      <ProjectReference Include="..\Migration.Intelligence.Validation\Migration.Intelligence.Validation.csproj" />
+      <ProjectReference Include="..\Migration.Intelligence.Agents\Migration.Intelligence.Agents.csproj" />
+      <ProjectReference Include="..\Migration.Intelligence.Design\Migration.Intelligence.Design.csproj" />
+      <ProjectReference Include="..\Migration.Intelligence.DomainInference\Migration.Intelligence.DomainInference.csproj" />
+      <ProjectReference Include="..\Migration.Intelligence.Reporting\Migration.Intelligence.Reporting.csproj" />
+      <ProjectReference Include="..\Migration.Intelligence.Scanner\Migration.Intelligence.Scanner.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,109 @@
+{
+  "IntelligenceReport": {
+    "Scope": "MigrationIntelligence",
+    "GeneratedAtUtc": "2026-03-07T15:08:55.5859391+00:00",
+    "QualityScore": 72,
+    "Issues": [
+      {
+        "Code": "MI002",
+        "Severity": 2,
+        "Message": "Domain enumeration validation failed; inferred and rendered domain sets diverge.",
+        "Scope": "DomainEnumeration",
+        "Evidence": [
+          "Domains without dependency edges: Help, Widget."
+        ]
+      },
+      {
+        "Code": "MI005",
+        "Severity": 1,
+        "Message": "Some scheduled Hangfire jobs do not have fully resolved schedule definitions.",
+        "Scope": "BackgroundJobs",
+        "Evidence": [
+          "AdvertExpertiseDiscountCodeNotificationJob:AdvertExpertiseDiscountCodeNotificationConsumerJob",
+          "AdvertIndexerJob:AdvertIndexer1",
+          "AdvertPriceOfferRecomputeJob:AdvertPriceOfferRecomputeJob1",
+          "AdvertSoldCheckStateJob:AdvertSoldCheckStateConsumerJob1",
+          "AdvertTrackingJob:AdvertTracking",
+          "ApproveAdvertsWaitingUserPhoneConfirmationJob:ApproveAdvertsWaitingUserPhoneConfirmationJob",
+          "OrganizerSynchAdvertJob:OrganizerSynchAdvert",
+          "ExpertiseReservationTrackingJob:ExpertiseReservationTracking",
+          "MemberDocumentMailJsonJob:MemberDocumentMailJsonJob",
+          "MemberIntegrationJob:MemberIntegration",
+          "OrganizerSynchMemberJob:OrganizerSynchMember",
+          "PriceOfferAnonymizationJob:PriceOfferAnonymizationConsumerJob",
+          "PriceOfferForNoReservationJob:PriceOfferForNoReservationSms",
+          "PriceOfferStatusJob:PriceOfferStatus",
+          "UpdateMedianValuesJob:UpdateMedianValuesJob",
+          "CrawlerSetAdvertToArabamCategoryJob:CrawlerSetAdvertToArabamCategoryJob",
+          "InstantFavoriteSearchTrackingJob:InstantFavoriteSearchTracking",
+          "IvtDailyUpdateJob:IvtDailyUpdateConsumerJob",
+          "IvtSingleEntryJob:IvtSingleEntryJob",
+          "OrganizerSynchLoginActionJob:OrganizerSynchLoginAction",
+          "OrganizerSynchOrderJob:OrganizerSynchOrder",
+          "OrganizerSynchOrgMemberJob:OrganizerSynchOrgMember",
+          "OrganizerSynchSubscriptionJob:OrganizerSynchSubscription",
+          "OutOfDateAdvertsIndexerJob:OutOfDateAdvertsIndexerJob",
+          "SurveyMonkeyPriceOfferReservationSmsJob:SurveyMonkeyPriceOfferReservationSmsJob"
+        ]
+      }
+    ],
+    "HasErrors": true,
+    "HasWarnings": true
+  },
+  "DomainReports": [
+    {
+      "Scope": "DomainDesign:PriceOffer",
+      "GeneratedAtUtc": "2026-03-07T15:08:55.5866489+00:00",
+      "QualityScore": 52,
+      "Issues": [
+        {
+          "Code": "DD002",
+          "Severity": 1,
+          "Message": "Boundary confidence is low; ownership should be verified manually.",
+          "Scope": "DomainDesign:PriceOffer",
+          "Evidence": []
+        },
+        {
+          "Code": "DD003",
+          "Severity": 1,
+          "Message": "No API endpoints mapped to this domain design.",
+          "Scope": "DomainDesign:PriceOffer",
+          "Evidence": []
+        },
+        {
+          "Code": "DD004",
+          "Severity": 2,
+          "Message": "Design has no structural components (controllers/repositories/tables).",
+          "Scope": "DomainDesign:PriceOffer",
+          "Evidence": []
+        },
+        {
+          "Code": "DD005",
+          "Severity": 1,
+          "Message": "No table ownership information found for this domain.",
+          "Scope": "DomainDesign:PriceOffer",
+          "Evidence": []
+        },
+        {
+          "Code": "DD007",
+          "Severity": 1,
+          "Message": "Direct extraction strategy may be optimistic given boundary confidence.",
+          "Scope": "DomainDesign:PriceOffer",
+          "Evidence": []
+        },
+        {
+          "Code": "DD008",
+          "Severity": 0,
+          "Message": "Boundary warnings exist but blockers list is empty.",
+          "Scope": "DomainDesign:PriceOffer",
+          "Evidence": []
+        }
+      ],
+      "HasErrors": true,
+      "HasWarnings": true
+    }
+  ],
+  "OverallScore": 62,
+  "GeneratedAtUtc": "2026-03-07T15:08:55.5873551+00:00",
+  "HasErrors": true
+}

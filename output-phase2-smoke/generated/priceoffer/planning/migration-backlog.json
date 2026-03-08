@@ -1,0 +1,121 @@
+[
+  {
+    "Id": "PRICEOFFER-PH01",
+    "Title": "Stabilize Service Boundary",
+    "Category": "phase",
+    "Priority": 1,
+    "Description": "Freeze and validate contracts for PriceOffer before extraction.",
+    "Dependencies": [],
+    "ExitCriteria": [
+      "Contract tests are green for public/admin/internal endpoints.",
+      "Canary routing switch is available."
+    ]
+  },
+  {
+    "Id": "PRICEOFFER-VL03",
+    "Title": "Fix validation issue DD004",
+    "Category": "validation",
+    "Priority": 1,
+    "Description": "Design has no structural components (controllers/repositories/tables).",
+    "Dependencies": [
+      "PRICEOFFER-PH01"
+    ],
+    "ExitCriteria": [
+      "Validation issue DD004 is closed."
+    ]
+  },
+  {
+    "Id": "PRICEOFFER-PH02",
+    "Title": "Capability Carve-Out",
+    "Category": "phase",
+    "Priority": 2,
+    "Description": "Extract core PriceOffer use-cases behind an anti-corruption boundary.",
+    "Dependencies": [
+      "PRICEOFFER-PH01"
+    ],
+    "ExitCriteria": [
+      "Core capability runs independently in .NET 10 host.",
+      "Dependent consumers switched to new service contract."
+    ]
+  },
+  {
+    "Id": "PRICEOFFER-VL01",
+    "Title": "Fix validation issue DD002",
+    "Category": "validation",
+    "Priority": 2,
+    "Description": "Boundary confidence is low; ownership should be verified manually.",
+    "Dependencies": [
+      "PRICEOFFER-PH01"
+    ],
+    "ExitCriteria": [
+      "Validation issue DD002 is closed."
+    ]
+  },
+  {
+    "Id": "PRICEOFFER-VL02",
+    "Title": "Fix validation issue DD003",
+    "Category": "validation",
+    "Priority": 2,
+    "Description": "No API endpoints mapped to this domain design.",
+    "Dependencies": [
+      "PRICEOFFER-PH01"
+    ],
+    "ExitCriteria": [
+      "Validation issue DD003 is closed."
+    ]
+  },
+  {
+    "Id": "PRICEOFFER-VL04",
+    "Title": "Fix validation issue DD005",
+    "Category": "validation",
+    "Priority": 2,
+    "Description": "No table ownership information found for this domain.",
+    "Dependencies": [
+      "PRICEOFFER-PH01"
+    ],
+    "ExitCriteria": [
+      "Validation issue DD005 is closed."
+    ]
+  },
+  {
+    "Id": "PRICEOFFER-VL05",
+    "Title": "Fix validation issue DD007",
+    "Category": "validation",
+    "Priority": 2,
+    "Description": "Direct extraction strategy may be optimistic given boundary confidence.",
+    "Dependencies": [
+      "PRICEOFFER-PH01"
+    ],
+    "ExitCriteria": [
+      "Validation issue DD007 is closed."
+    ]
+  },
+  {
+    "Id": "PRICEOFFER-PH03",
+    "Title": "Write Path and Data Transition",
+    "Category": "phase",
+    "Priority": 3,
+    "Description": "Move write path and ownership to service database.",
+    "Dependencies": [
+      "PRICEOFFER-PH02"
+    ],
+    "ExitCriteria": [
+      "Write consistency checks are green.",
+      "Operational rollback path is validated."
+    ]
+  },
+  {
+    "Id": "PRICEOFFER-PH04",
+    "Title": "Background Jobs and Monolith Decommission",
+    "Category": "phase",
+    "Priority": 4,
+    "Description": "Finalize cutover and remove obsolete monolith components.",
+    "Dependencies": [
+      "PRICEOFFER-PH03"
+    ],
+    "ExitCriteria": [
+      "No production traffic executes in extracted monolith modules.",
+      "Runbook and SLO ownership transferred to service team."
+    ]
+  }
+]

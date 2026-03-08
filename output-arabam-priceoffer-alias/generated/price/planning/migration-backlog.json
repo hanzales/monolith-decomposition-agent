@@ -1,0 +1,108 @@
+[
+  {
+    "Id": "PRICE-BL01",
+    "Title": "Resolve blocker 1",
+    "Category": "blocker",
+    "Priority": 1,
+    "Description": "Anti-corruption layer required for legacy/shared dependencies.",
+    "Dependencies": [
+      "PRICE-PH01"
+    ],
+    "ExitCriteria": [
+      "Blocker is mitigated or accepted with rollback plan."
+    ]
+  },
+  {
+    "Id": "PRICE-BL02",
+    "Title": "Resolve blocker 2",
+    "Category": "blocker",
+    "Priority": 1,
+    "Description": "HttpContext usage: Direct HttpContext access leaks transport concerns into domain/application layers.",
+    "Dependencies": [
+      "PRICE-PH01"
+    ],
+    "ExitCriteria": [
+      "Blocker is mitigated or accepted with rollback plan."
+    ]
+  },
+  {
+    "Id": "PRICE-BL03",
+    "Title": "Resolve blocker 3",
+    "Category": "blocker",
+    "Priority": 1,
+    "Description": "HttpContext usage: Porting to microservices requires extensive rewiring of request-scoped context logic.",
+    "Dependencies": [
+      "PRICE-PH01"
+    ],
+    "ExitCriteria": [
+      "Blocker is mitigated or accepted with rollback plan."
+    ]
+  },
+  {
+    "Id": "PRICE-BL04",
+    "Title": "Resolve blocker 4",
+    "Category": "blocker",
+    "Priority": 1,
+    "Description": "Shared table coupling (6 table(s)).",
+    "Dependencies": [
+      "PRICE-PH01"
+    ],
+    "ExitCriteria": [
+      "Blocker is mitigated or accepted with rollback plan."
+    ]
+  },
+  {
+    "Id": "PRICE-PH01",
+    "Title": "Stabilize Service Boundary",
+    "Category": "phase",
+    "Priority": 1,
+    "Description": "Freeze and validate contracts for Price before extraction.",
+    "Dependencies": [],
+    "ExitCriteria": [
+      "Contract tests are green for public/admin/internal endpoints.",
+      "Canary routing switch is available."
+    ]
+  },
+  {
+    "Id": "PRICE-PH02",
+    "Title": "Read Path Extraction",
+    "Category": "phase",
+    "Priority": 2,
+    "Description": "Move read-only APIs first to reduce data-write risk.",
+    "Dependencies": [
+      "PRICE-PH01"
+    ],
+    "ExitCriteria": [
+      "Read API parity and latency targets are met.",
+      "Fallback route switch is verified."
+    ]
+  },
+  {
+    "Id": "PRICE-PH03",
+    "Title": "Write Path and Data Transition",
+    "Category": "phase",
+    "Priority": 3,
+    "Description": "Transition writes with controlled shared database period.",
+    "Dependencies": [
+      "PRICE-PH02"
+    ],
+    "ExitCriteria": [
+      "Write consistency checks are green.",
+      "Operational rollback path is validated."
+    ]
+  },
+  {
+    "Id": "PRICE-PH04",
+    "Title": "Background Jobs and Monolith Decommission",
+    "Category": "phase",
+    "Priority": 4,
+    "Description": "Migrate legacy-hosted jobs and remove monolith runtime dependency.",
+    "Dependencies": [
+      "PRICE-PH03"
+    ],
+    "ExitCriteria": [
+      "No production traffic executes in extracted monolith modules.",
+      "Runbook and SLO ownership transferred to service team."
+    ]
+  }
+]

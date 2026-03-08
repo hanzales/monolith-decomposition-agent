@@ -1,0 +1,192 @@
+{
+  "SelectedDomain": "Intelligence",
+  "ServiceBlueprint": {
+    "CandidateName": "Intelligence",
+    "BoundedContextName": "IntelligenceContext",
+    "Description": "Likely business boundary inferred from controller, repository, table, and dependency co-occurrence.",
+    "CoreCapabilities": [
+      "Intelligence"
+    ],
+    "PrimaryControllers": [],
+    "PrimaryRepositories": [],
+    "PrimaryTables": [],
+    "CohesionScore": 30,
+    "CouplingScore": 100,
+    "MigrationReadinessScore": 5,
+    "MigrationReadinessLevel": "Low"
+  },
+  "ServiceBoundary": {
+    "DomainCandidate": "Intelligence",
+    "Subdomains": [
+      "Intelligence"
+    ],
+    "Controllers": [],
+    "Services": [],
+    "Repositories": [],
+    "Entities": [
+      "ConsolidationResult",
+      "DiRegistrationObservation",
+      "EndpointObservation",
+      "FileObservation",
+      "LegacyHostingEvaluation",
+      "Name",
+      "Naming",
+      "OwnershipResult",
+      "RegistrationHint",
+      "ScheduleConstantHint",
+      "ScheduleHint",
+      "ScheduleResolutionResult"
+    ],
+    "Tables": [],
+    "ExecutionChains": [],
+    "InboundDependentDomains": [],
+    "OutboundDependencies": [],
+    "BoundaryWarnings": [
+      "No controllers were mapped to this domain candidate.",
+      "No endpoints were mapped; ownership validation is required."
+    ],
+    "BoundaryConfidence": 0.5725000000000001,
+    "BoundaryRationale": "Intelligence boundary inferred from 0 controllers, 0 services, 0 repositories and 0 tables (low-confidence)."
+  },
+  "ServiceContract": {
+    "DomainCandidate": "Intelligence",
+    "PublicApis": [],
+    "AdminApis": [],
+    "InternalApis": [],
+    "EventContracts": [],
+    "ContractNotes": [
+      "No endpoint mappings found; contract must be validated from controllers and workflows.",
+      "No explicit event contract was inferred.",
+      "Boundary confidence is below 0.60; endpoint and service ownership requires manual validation."
+    ],
+    "ContractCompleteness": 0.23750000000000002
+  },
+  "DataOwnershipPlan": {
+    "DomainCandidate": "Intelligence",
+    "OwnedTables": [],
+    "SharedTables": [],
+    "ReferencedTables": [],
+    "SharedDependencies": [],
+    "RequiresSharedDatabasePhase": false,
+    "SupportsImmediateIsolation": false,
+    "DatabaseSplitStrategy": "No clearly owned tables detected; start extraction with API contract and workflow isolation first.",
+    "MigrationNotes": [
+      "Owned tables: 0",
+      "Shared tables: 0",
+      "Referenced tables: 0"
+    ]
+  },
+  "IntegrationBoundaryPlan": {
+    "DomainCandidate": "Intelligence",
+    "InboundIntegrations": [],
+    "OutboundIntegrations": [],
+    "InternalServiceDependencies": [],
+    "AntiCorruptionLayerNeeds": [
+      "Legacy adapters required for risks: .NET Framework-only APIs, HttpContext usage, legacy IoC container usage, static/global context usage, System.Web dependency"
+    ],
+    "IntegrationRisks": [],
+    "NeedsAntiCorruptionLayer": true,
+    "Summary": "0 outbound and 0 inbound integration links detected; 1 anti-corruption requirement(s) inferred."
+  },
+  "StranglerMigrationPlan": {
+    "DomainCandidate": "Intelligence",
+    "ExtractionStrategy": 4,
+    "ReadOnlyFirstCandidate": false,
+    "StagedMigrationRecommended": true,
+    "Phases": [
+      {
+        "PhaseOrder": 1,
+        "Name": "Stabilize Service Boundary",
+        "Objective": "Freeze and validate contracts for Intelligence before extraction.",
+        "WorkItems": [
+          "Validate endpoint ownership and route coverage.",
+          "Capture baseline integration and dependency tests.",
+          "Introduce feature flags for traffic redirection."
+        ],
+        "ExitCriteria": [
+          "Contract tests are green for public/admin/internal endpoints.",
+          "Canary routing switch is available."
+        ],
+        "CanRollback": true,
+        "RollbackStrategy": "Disable route switch and keep all traffic in monolith."
+      },
+      {
+        "PhaseOrder": 2,
+        "Name": "Capability Carve-Out",
+        "Objective": "Extract core Intelligence use-cases behind an anti-corruption boundary.",
+        "WorkItems": [
+          "Move service orchestration and repositories for selected capability.",
+          "Expose stable service contracts to dependent domains.",
+          "Keep compatibility facade in monolith host."
+        ],
+        "ExitCriteria": [
+          "Core capability runs independently in .NET 10 host.",
+          "Dependent consumers switched to new service contract."
+        ],
+        "CanRollback": true,
+        "RollbackStrategy": "Use monolith compatibility facade to re-enable old execution path."
+      },
+      {
+        "PhaseOrder": 3,
+        "Name": "Write Path and Data Transition",
+        "Objective": "Move write path and ownership to service database.",
+        "WorkItems": [
+          "Migrate command/write handlers and validation logic.",
+          "Cut over table ownership to isolated schema/database.",
+          "Enable anti-corruption APIs for legacy/shared dependencies."
+        ],
+        "ExitCriteria": [
+          "Write consistency checks are green.",
+          "Operational rollback path is validated."
+        ],
+        "CanRollback": true,
+        "RollbackStrategy": "Switch write route and job dispatch back to monolith path."
+      },
+      {
+        "PhaseOrder": 4,
+        "Name": "Background Jobs and Monolith Decommission",
+        "Objective": "Finalize cutover and remove obsolete monolith components.",
+        "WorkItems": [
+          "Move compatible jobs to service host with new scheduling bootstrap.",
+          "Keep legacy-hosted jobs in monolith until config/runtime refactor is complete.",
+          "Delete dead code paths and redundant adapters."
+        ],
+        "ExitCriteria": [
+          "No production traffic executes in extracted monolith modules.",
+          "Runbook and SLO ownership transferred to service team."
+        ],
+        "CanRollback": false,
+        "RollbackStrategy": "N/A after monolith code path decommission."
+      }
+    ],
+    "MonolithRetentionItems": [],
+    "RollbackConsiderations": [
+      "Maintain route-level feature flags for each migration phase.",
+      "Keep deployment artifacts for previous monolith-compatible build."
+    ],
+    "MigrationBlockers": [
+      "Anti-corruption layer required for legacy/shared dependencies.",
+      "High coupling score: 100."
+    ],
+    "MigrationNotes": [
+      "Read endpoint ratio: 0%",
+      "Coupling score considered: 100",
+      "Unknown chain count considered: 0",
+      "Legacy blockers considered: 0",
+      "Phase 1 recommendation context: Candidate should be postponed until unknown chains, shared data, and legacy blockers are reduced."
+    ]
+  },
+  "Blockers": [
+    "Anti-corruption layer required for legacy/shared dependencies.",
+    "High coupling score: 100."
+  ],
+  "ReadinessNotes": [
+    "Boundary confidence: 57%",
+    "Contract completeness: 24%",
+    "No clearly owned tables detected; start extraction with API contract and workflow isolation first.",
+    "0 outbound and 0 inbound integration links detected; 1 anti-corruption requirement(s) inferred.",
+    "Extraction strategy: DeferredDueToCoupling",
+    "Readiness (Low): Readiness=5. Cohesion=30, Coupling=100, SharedTables=0, ExternalDeps=0, LegacyRisks=7, CrossDomainWorkflows=0, UnknownChains=0, BackgroundJobs=0, ConsumerJobs=0, LegacyHostedJobs=0, EndpointOverlap=no, EndpointOwnershipConfidence=0.45."
+  ],
+  "GeneratedAtUtc": "2026-03-07T14:42:19.7731453+00:00"
+}

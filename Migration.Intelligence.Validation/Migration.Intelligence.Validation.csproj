@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+</PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Migration.Intelligence.Core\Migration.Intelligence.Core.csproj" />
+      <ProjectReference Include="..\Migration.Intelligence.Contracts\Migration.Intelligence.Contracts.csproj" />
+      <ProjectReference Include="..\Migration.Intelligence.Design\Migration.Intelligence.Design.csproj" />
+    </ItemGroup>
+
+</Project>

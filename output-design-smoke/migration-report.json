@@ -1,0 +1,1309 @@
+{
+  "SourcePath": "C:\\Users\\ilhan.emir\\RiderProjects\\monolith-decomposition-agent",
+  "TargetPath": "C:\\Users\\ilhan.emir\\RiderProjects\\monolith-decomposition-agent\\output-design-smoke",
+  "ArchitectureDocs": [],
+  "Inventory": {
+    "SourceRootPath": "C:\\Users\\ilhan.emir\\RiderProjects\\monolith-decomposition-agent",
+    "Solutions": [
+      {
+        "RelativePath": "monolith-decomposition-agent.sln",
+        "Projects": [
+          {
+            "Name": "Migration.Intelligence.Cli",
+            "RelativePath": "Migration.Intelligence.Cli\\Migration.Intelligence.Cli.csproj",
+            "TargetFramework": "net10.0"
+          },
+          {
+            "Name": "Migration.Intelligence.Core",
+            "RelativePath": "Migration.Intelligence.Core\\Migration.Intelligence.Core.csproj",
+            "TargetFramework": "net10.0"
+          },
+          {
+            "Name": "Migration.Intelligence.Scanner",
+            "RelativePath": "Migration.Intelligence.Scanner\\Migration.Intelligence.Scanner.csproj",
+            "TargetFramework": "net10.0"
+          },
+          {
+            "Name": "Migration.Intelligence.CodeAnalysis",
+            "RelativePath": "Migration.Intelligence.CodeAnalysis\\Migration.Intelligence.CodeAnalysis.csproj",
+            "TargetFramework": "net10.0"
+          },
+          {
+            "Name": "Migration.Intelligence.DomainInference",
+            "RelativePath": "Migration.Intelligence.DomainInference\\Migration.Intelligence.DomainInference.csproj",
+            "TargetFramework": "net10.0"
+          },
+          {
+            "Name": "Migration.Intelligence.Reporting",
+            "RelativePath": "Migration.Intelligence.Reporting\\Migration.Intelligence.Reporting.csproj",
+            "TargetFramework": "net10.0"
+          },
+          {
+            "Name": "Migration.Intelligence.Contracts",
+            "RelativePath": "Migration.Intelligence.Contracts\\Migration.Intelligence.Contracts.csproj",
+            "TargetFramework": "net10.0"
+          },
+          {
+            "Name": "Migration.Intelligence.Design",
+            "RelativePath": "Migration.Intelligence.Design\\Migration.Intelligence.Design.csproj",
+            "TargetFramework": "net10.0"
+          },
+          {
+            "Name": "Migration.Intelligence.Generation",
+            "RelativePath": "Migration.Intelligence.Generation\\Migration.Intelligence.Generation.csproj",
+            "TargetFramework": "net10.0"
+          },
+          {
+            "Name": "Migration.Intelligence.Agents",
+            "RelativePath": "Migration.Intelligence.Agents\\Migration.Intelligence.Agents.csproj",
+            "TargetFramework": "net10.0"
+          },
+          {
+            "Name": "Migration.Intelligence.Validation",
+            "RelativePath": "Migration.Intelligence.Validation\\Migration.Intelligence.Validation.csproj",
+            "TargetFramework": "net10.0"
+          }
+        ]
+      }
+    ],
+    "Projects": [
+      {
+        "Name": "Migration.Intelligence.Agents",
+        "RelativePath": "Migration.Intelligence.Agents\\Migration.Intelligence.Agents.csproj",
+        "TargetFramework": "net10.0"
+      },
+      {
+        "Name": "Migration.Intelligence.Cli",
+        "RelativePath": "Migration.Intelligence.Cli\\Migration.Intelligence.Cli.csproj",
+        "TargetFramework": "net10.0"
+      },
+      {
+        "Name": "Migration.Intelligence.CodeAnalysis",
+        "RelativePath": "Migration.Intelligence.CodeAnalysis\\Migration.Intelligence.CodeAnalysis.csproj",
+        "TargetFramework": "net10.0"
+      },
+      {
+        "Name": "Migration.Intelligence.Contracts",
+        "RelativePath": "Migration.Intelligence.Contracts\\Migration.Intelligence.Contracts.csproj",
+        "TargetFramework": "net10.0"
+      },
+      {
+        "Name": "Migration.Intelligence.Core",
+        "RelativePath": "Migration.Intelligence.Core\\Migration.Intelligence.Core.csproj",
+        "TargetFramework": "net10.0"
+      },
+      {
+        "Name": "Migration.Intelligence.Design",
+        "RelativePath": "Migration.Intelligence.Design\\Migration.Intelligence.Design.csproj",
+        "TargetFramework": "net10.0"
+      },
+      {
+        "Name": "Migration.Intelligence.DomainInference",
+        "RelativePath": "Migration.Intelligence.DomainInference\\Migration.Intelligence.DomainInference.csproj",
+        "TargetFramework": "net10.0"
+      },
+      {
+        "Name": "Migration.Intelligence.Generation",
+        "RelativePath": "Migration.Intelligence.Generation\\Migration.Intelligence.Generation.csproj",
+        "TargetFramework": "net10.0"
+      },
+      {
+        "Name": "Migration.Intelligence.Reporting",
+        "RelativePath": "Migration.Intelligence.Reporting\\Migration.Intelligence.Reporting.csproj",
+        "TargetFramework": "net10.0"
+      },
+      {
+        "Name": "Migration.Intelligence.Scanner",
+        "RelativePath": "Migration.Intelligence.Scanner\\Migration.Intelligence.Scanner.csproj",
+        "TargetFramework": "net10.0"
+      },
+      {
+        "Name": "Migration.Intelligence.Validation",
+        "RelativePath": "Migration.Intelligence.Validation\\Migration.Intelligence.Validation.csproj",
+        "TargetFramework": "net10.0"
+      }
+    ],
+    "SourceFiles": [
+      {
+        "RelativePath": "Migration.Intelligence.Agents\\Class1.cs",
+        "Extension": ".cs",
+        "SizeBytes": 72
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Cli\\Program.cs",
+        "Extension": ".cs",
+        "SizeBytes": 12271
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Generation\\Class1.cs",
+        "Extension": ".cs",
+        "SizeBytes": 76
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Validation\\Class1.cs",
+        "Extension": ".cs",
+        "SizeBytes": 76
+      },
+      {
+        "RelativePath": "output\\migration-report.json",
+        "Extension": ".json",
+        "SizeBytes": 2892898
+      },
+      {
+        "RelativePath": "_out\\migration-report.json",
+        "Extension": ".json",
+        "SizeBytes": 22990
+      },
+      {
+        "RelativePath": "_out2\\migration-report.json",
+        "Extension": ".json",
+        "SizeBytes": 23124
+      },
+      {
+        "RelativePath": "Migration.Intelligence.CodeAnalysis\\Heuristics\\ControllerHeuristics.cs",
+        "Extension": ".cs",
+        "SizeBytes": 648
+      },
+      {
+        "RelativePath": "Migration.Intelligence.CodeAnalysis\\Heuristics\\LegacyFrameworkHeuristics.cs",
+        "Extension": ".cs",
+        "SizeBytes": 1496
+      },
+      {
+        "RelativePath": "Migration.Intelligence.CodeAnalysis\\Heuristics\\RepositoryHeuristics.cs",
+        "Extension": ".cs",
+        "SizeBytes": 345
+      },
+      {
+        "RelativePath": "Migration.Intelligence.CodeAnalysis\\Models\\AnalysisSummary.cs",
+        "Extension": ".cs",
+        "SizeBytes": 602
+      },
+      {
+        "RelativePath": "Migration.Intelligence.CodeAnalysis\\Models\\TypeGraph.cs",
+        "Extension": ".cs",
+        "SizeBytes": 860
+      },
+      {
+        "RelativePath": "Migration.Intelligence.CodeAnalysis\\Models\\TypeNode.cs",
+        "Extension": ".cs",
+        "SizeBytes": 360
+      },
+      {
+        "RelativePath": "Migration.Intelligence.CodeAnalysis\\Services\\DataAccessAnalyzer.cs",
+        "Extension": ".cs",
+        "SizeBytes": 2834
+      },
+      {
+        "RelativePath": "Migration.Intelligence.CodeAnalysis\\Services\\DependencyAnalyzer.cs",
+        "Extension": ".cs",
+        "SizeBytes": 2470
+      },
+      {
+        "RelativePath": "Migration.Intelligence.CodeAnalysis\\Services\\EndpointAnalyzer.cs",
+        "Extension": ".cs",
+        "SizeBytes": 5285
+      },
+      {
+        "RelativePath": "Migration.Intelligence.CodeAnalysis\\Services\\LegacyRiskAnalyzer.cs",
+        "Extension": ".cs",
+        "SizeBytes": 2355
+      },
+      {
+        "RelativePath": "Migration.Intelligence.CodeAnalysis\\Services\\RoslynWorkspaceFactory.cs",
+        "Extension": ".cs",
+        "SizeBytes": 713
+      },
+      {
+        "RelativePath": "Migration.Intelligence.CodeAnalysis\\Services\\SolutionCodeAnalyzer.cs",
+        "Extension": ".cs",
+        "SizeBytes": 5257
+      },
+      {
+        "RelativePath": "Migration.Intelligence.CodeAnalysis\\Services\\TypeGraphBuilder.cs",
+        "Extension": ".cs",
+        "SizeBytes": 496
+      },
+      {
+        "RelativePath": "Migration.Intelligence.CodeAnalysis\\Visitors\\ControllerVisitor.cs",
+        "Extension": ".cs",
+        "SizeBytes": 823
+      },
+      {
+        "RelativePath": "Migration.Intelligence.CodeAnalysis\\Visitors\\DependencyVisitor.cs",
+        "Extension": ".cs",
+        "SizeBytes": 938
+      },
+      {
+        "RelativePath": "Migration.Intelligence.CodeAnalysis\\Visitors\\RepositoryVisitor.cs",
+        "Extension": ".cs",
+        "SizeBytes": 448
+      },
+      {
+        "RelativePath": "Migration.Intelligence.CodeAnalysis\\Visitors\\SqlUsageVisitor.cs",
+        "Extension": ".cs",
+        "SizeBytes": 1215
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\Analysis\\ConstructorDependencyContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 263
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\Analysis\\DependencyContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 259
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\Analysis\\EndpointContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 391
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\Analysis\\ExternalCallContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 271
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\Analysis\\LegacyRiskContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 366
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\Analysis\\TableUsageContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 261
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\Analysis\\TypeContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 709
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\Common\\EndpointHttpMethod.cs",
+        "Extension": ".cs",
+        "SizeBytes": 209
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\Common\\ProjectKind.cs",
+        "Extension": ".cs",
+        "SizeBytes": 227
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\Common\\RiskLevel.cs",
+        "Extension": ".cs",
+        "SizeBytes": 156
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\Discovery\\FileContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 233
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\Discovery\\ProjectContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 255
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\Discovery\\SolutionContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 210
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\Domain\\DomainCandidateContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 321
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\Domain\\DomainClusterContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 232
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\Domain\\MigrationRecommendationContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 390
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\Domain\\MigrationScoreContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 700
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\MigrationIntelligence\\BackgroundJobValidationContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 626
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\MigrationIntelligence\\ComponentCategory.cs",
+        "Extension": ".cs",
+        "SizeBytes": 225
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\MigrationIntelligence\\ComponentClassificationContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 369
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\MigrationIntelligence\\DomainDependencyContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 321
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\MigrationIntelligence\\DomainEnumerationValidationContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 552
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\MigrationIntelligence\\DomainHierarchyContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 223
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\MigrationIntelligence\\EndpointExposure.cs",
+        "Extension": ".cs",
+        "SizeBytes": 152
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\MigrationIntelligence\\EndpointMappingContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 607
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\MigrationIntelligence\\ExecutionChainContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 459
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\MigrationIntelligence\\ExternalDependencyMapContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 507
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\MigrationIntelligence\\HangfireJobCategory.cs",
+        "Extension": ".cs",
+        "SizeBytes": 188
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\MigrationIntelligence\\HangfireJobContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 2119
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\MigrationIntelligence\\HangfireJobTriggerType.cs",
+        "Extension": ".cs",
+        "SizeBytes": 222
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\MigrationIntelligence\\HangfireScheduleResolutionStatus.cs",
+        "Extension": ".cs",
+        "SizeBytes": 193
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\MigrationIntelligence\\HangfireScheduleSourceType.cs",
+        "Extension": ".cs",
+        "SizeBytes": 216
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\MigrationIntelligence\\LegacyRiskDetailContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 588
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\MigrationIntelligence\\MigrationIntelligenceContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 1834
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\MigrationIntelligence\\MigrationOrderRecommendationContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 473
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\MigrationIntelligence\\ProducerConsumerRelationshipContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 393
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\MigrationIntelligence\\RepositoryTableMappingContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 458
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\MigrationIntelligence\\ServiceDossierContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 2207
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\MigrationIntelligence\\SharedKernelItemContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 348
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\MigrationIntelligence\\TableOwnershipContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 500
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\MigrationIntelligence\\WorkflowAnalysisContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 416
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\Orchestration\\CodeInsightsContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 624
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\Orchestration\\MigrationExecutionContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 737
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\Orchestration\\RepositoryInventoryContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 487
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\Orchestration\\ServiceBlueprintContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 386
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Contracts\\Reporting\\AnalysisReportContract.cs",
+        "Extension": ".cs",
+        "SizeBytes": 340
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Core\\Abstractions\\IAnalysisStep.cs",
+        "Extension": ".cs",
+        "SizeBytes": 299
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Core\\Abstractions\\ICodeAnalyzer.cs",
+        "Extension": ".cs",
+        "SizeBytes": 367
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Core\\Abstractions\\IDomainInferenceEngine.cs",
+        "Extension": ".cs",
+        "SizeBytes": 431
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Core\\Abstractions\\IMigrationIntelligenceAnalyzer.cs",
+        "Extension": ".cs",
+        "SizeBytes": 567
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Core\\Abstractions\\IReportGenerator.cs",
+        "Extension": ".cs",
+        "SizeBytes": 422
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Core\\Abstractions\\IRepoScanner.cs",
+        "Extension": ".cs",
+        "SizeBytes": 306
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Core\\Abstractions\\ITargetProjectWriter.cs",
+        "Extension": ".cs",
+        "SizeBytes": 361
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Core\\Options\\AnalysisOptions.cs",
+        "Extension": ".cs",
+        "SizeBytes": 561
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Core\\Options\\CodeAnalysisOptions.cs",
+        "Extension": ".cs",
+        "SizeBytes": 330
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Core\\Options\\DomainInferenceOptions.cs",
+        "Extension": ".cs",
+        "SizeBytes": 264
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Core\\Options\\ReportingOptions.cs",
+        "Extension": ".cs",
+        "SizeBytes": 266
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Core\\Options\\ScannerOptions.cs",
+        "Extension": ".cs",
+        "SizeBytes": 417
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Core\\Pipeline\\AnalysisContext.cs",
+        "Extension": ".cs",
+        "SizeBytes": 573
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Core\\Pipeline\\AnalysisPipeline.cs",
+        "Extension": ".cs",
+        "SizeBytes": 2891
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Core\\Pipeline\\AnalysisPipelineBuilder.cs",
+        "Extension": ".cs",
+        "SizeBytes": 2894
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Core\\Pipeline\\AnalysisStepMetadata.cs",
+        "Extension": ".cs",
+        "SizeBytes": 344
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Core\\Pipeline\\AnalysisStepResult.cs",
+        "Extension": ".cs",
+        "SizeBytes": 252
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Core\\Pipeline\\PipelineExecutionSummary.cs",
+        "Extension": ".cs",
+        "SizeBytes": 411
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Core\\Results\\Result.cs",
+        "Extension": ".cs",
+        "SizeBytes": 440
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Core\\Results\\ResultT.cs",
+        "Extension": ".cs",
+        "SizeBytes": 495
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Core\\Utilities\\PathUtility.cs",
+        "Extension": ".cs",
+        "SizeBytes": 1177
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Core\\Utilities\\StringSimilarityUtility.cs",
+        "Extension": ".cs",
+        "SizeBytes": 2368
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Abstractions\\IDataOwnershipPlanner.cs",
+        "Extension": ".cs",
+        "SizeBytes": 444
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Abstractions\\IDomainMigrationDesignBuilder.cs",
+        "Extension": ".cs",
+        "SizeBytes": 573
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Abstractions\\IIntegrationBoundaryPlanner.cs",
+        "Extension": ".cs",
+        "SizeBytes": 461
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Abstractions\\IServiceBoundaryDesigner.cs",
+        "Extension": ".cs",
+        "SizeBytes": 428
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Abstractions\\IServiceContractDesigner.cs",
+        "Extension": ".cs",
+        "SizeBytes": 448
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Abstractions\\IStranglerMigrationPlanner.cs",
+        "Extension": ".cs",
+        "SizeBytes": 593
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Builders\\DesignComposition.cs",
+        "Extension": ".cs",
+        "SizeBytes": 1100
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Builders\\DomainMigrationDesignBuilder.cs",
+        "Extension": ".cs",
+        "SizeBytes": 10112
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Models\\DataOwnershipPlan.cs",
+        "Extension": ".cs",
+        "SizeBytes": 721
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Models\\DomainMigrationDesign.cs",
+        "Extension": ".cs",
+        "SizeBytes": 811
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Models\\EndpointContractDefinition.cs",
+        "Extension": ".cs",
+        "SizeBytes": 593
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Models\\EventContractCandidate.cs",
+        "Extension": ".cs",
+        "SizeBytes": 490
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Models\\EventContractDirection.cs",
+        "Extension": ".cs",
+        "SizeBytes": 138
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Models\\ExecutionChainDefinition.cs",
+        "Extension": ".cs",
+        "SizeBytes": 423
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Models\\ExtractionStrategy.cs",
+        "Extension": ".cs",
+        "SizeBytes": 214
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Models\\IntegrationBoundaryPlan.cs",
+        "Extension": ".cs",
+        "SizeBytes": 694
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Models\\IntegrationDependencyDefinition.cs",
+        "Extension": ".cs",
+        "SizeBytes": 527
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Models\\MigrationPhaseDefinition.cs",
+        "Extension": ".cs",
+        "SizeBytes": 473
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Models\\ServiceBlueprint.cs",
+        "Extension": ".cs",
+        "SizeBytes": 742
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Models\\ServiceBoundaryDefinition.cs",
+        "Extension": ".cs",
+        "SizeBytes": 913
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Models\\ServiceContractDefinition.cs",
+        "Extension": ".cs",
+        "SizeBytes": 590
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Models\\SharedDependencyDefinition.cs",
+        "Extension": ".cs",
+        "SizeBytes": 328
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Models\\StranglerMigrationPlan.cs",
+        "Extension": ".cs",
+        "SizeBytes": 683
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Models\\TableAccessType.cs",
+        "Extension": ".cs",
+        "SizeBytes": 145
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Models\\TableOwnershipDecision.cs",
+        "Extension": ".cs",
+        "SizeBytes": 580
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Models\\TableRole.cs",
+        "Extension": ".cs",
+        "SizeBytes": 144
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Planners\\DataOwnershipPlanner.cs",
+        "Extension": ".cs",
+        "SizeBytes": 13743
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Planners\\IntegrationBoundaryPlanner.cs",
+        "Extension": ".cs",
+        "SizeBytes": 10485
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Planners\\StranglerMigrationPlanner.cs",
+        "Extension": ".cs",
+        "SizeBytes": 13939
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Services\\DesignDomainResolver.cs",
+        "Extension": ".cs",
+        "SizeBytes": 4377
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Services\\ServiceBoundaryDesigner.cs",
+        "Extension": ".cs",
+        "SizeBytes": 9301
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Design\\Services\\ServiceContractDesigner.cs",
+        "Extension": ".cs",
+        "SizeBytes": 11404
+      },
+      {
+        "RelativePath": "Migration.Intelligence.DomainInference\\Heuristics\\CohesionHeuristics.cs",
+        "Extension": ".cs",
+        "SizeBytes": 352
+      },
+      {
+        "RelativePath": "Migration.Intelligence.DomainInference\\Heuristics\\CouplingHeuristics.cs",
+        "Extension": ".cs",
+        "SizeBytes": 494
+      },
+      {
+        "RelativePath": "Migration.Intelligence.DomainInference\\Heuristics\\DataOwnershipHeuristics.cs",
+        "Extension": ".cs",
+        "SizeBytes": 773
+      },
+      {
+        "RelativePath": "Migration.Intelligence.DomainInference\\Heuristics\\NamingHeuristics.cs",
+        "Extension": ".cs",
+        "SizeBytes": 862
+      },
+      {
+        "RelativePath": "Migration.Intelligence.DomainInference\\Models\\DomainCluster.cs",
+        "Extension": ".cs",
+        "SizeBytes": 275
+      },
+      {
+        "RelativePath": "Migration.Intelligence.DomainInference\\Models\\MigrationScoreCard.cs",
+        "Extension": ".cs",
+        "SizeBytes": 682
+      },
+      {
+        "RelativePath": "Migration.Intelligence.DomainInference\\Services\\DomainClusterBuilder.cs",
+        "Extension": ".cs",
+        "SizeBytes": 2272
+      },
+      {
+        "RelativePath": "Migration.Intelligence.DomainInference\\Services\\DomainInferenceEngine.cs",
+        "Extension": ".cs",
+        "SizeBytes": 25060
+      },
+      {
+        "RelativePath": "Migration.Intelligence.DomainInference\\Services\\MigrationIntelligenceAnalyzer.cs",
+        "Extension": ".cs",
+        "SizeBytes": 266845
+      },
+      {
+        "RelativePath": "Migration.Intelligence.DomainInference\\Services\\MigrationScoringService.cs",
+        "Extension": ".cs",
+        "SizeBytes": 11920
+      },
+      {
+        "RelativePath": "Migration.Intelligence.DomainInference\\Services\\RecommendationService.cs",
+        "Extension": ".cs",
+        "SizeBytes": 2345
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Reporting\\Formatters\\DomainCandidateFormatter.cs",
+        "Extension": ".cs",
+        "SizeBytes": 1712
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Reporting\\Formatters\\RiskSummaryFormatter.cs",
+        "Extension": ".cs",
+        "SizeBytes": 789
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Reporting\\Services\\CompositeReportGenerator.cs",
+        "Extension": ".cs",
+        "SizeBytes": 1315
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Reporting\\Services\\JsonReportWriter.cs",
+        "Extension": ".cs",
+        "SizeBytes": 716
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Reporting\\Services\\MarkdownReportWriter.cs",
+        "Extension": ".cs",
+        "SizeBytes": 56019
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Reporting\\Services\\TargetProjectWriter.cs",
+        "Extension": ".cs",
+        "SizeBytes": 4133
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Reporting\\Templates\\MarkdownTemplateBuilder.cs",
+        "Extension": ".cs",
+        "SizeBytes": 653
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Scanner\\Mappers\\ProjectMapper.cs",
+        "Extension": ".cs",
+        "SizeBytes": 492
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Scanner\\Services\\CsProjParser.cs",
+        "Extension": ".cs",
+        "SizeBytes": 604
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Scanner\\Services\\FileInventoryService.cs",
+        "Extension": ".cs",
+        "SizeBytes": 1164
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Scanner\\Services\\ProjectDiscoveryService.cs",
+        "Extension": ".cs",
+        "SizeBytes": 1212
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Scanner\\Services\\RepoScanner.cs",
+        "Extension": ".cs",
+        "SizeBytes": 1872
+      },
+      {
+        "RelativePath": "Migration.Intelligence.Scanner\\Services\\SolutionDiscoveryService.cs",
+        "Extension": ".cs",
+        "SizeBytes": 2902
+      }
+    ],
+    "MarkdownFiles": [
+      {
+        "RelativePath": "output\\migration-report.md",
+        "Extension": ".md",
+        "SizeBytes": 463663
+      },
+      {
+        "RelativePath": "output\\SERVICE_MAP.md",
+        "Extension": ".md",
+        "SizeBytes": 709
+      },
+      {
+        "RelativePath": "_out\\migration-report.md",
+        "Extension": ".md",
+        "SizeBytes": 568
+      },
+      {
+        "RelativePath": "_out2\\migration-report.md",
+        "Extension": ".md",
+        "SizeBytes": 570
+      },
+      {
+        "RelativePath": "_out2\\SERVICE_MAP.md",
+        "Extension": ".md",
+        "SizeBytes": 103
+      },
+      {
+        "RelativePath": "output\\services\\admin\\README.md",
+        "Extension": ".md",
+        "SizeBytes": 496
+      },
+      {
+        "RelativePath": "output\\services\\api\\README.md",
+        "Extension": ".md",
+        "SizeBytes": 480
+      },
+      {
+        "RelativePath": "output\\services\\api-gateway\\README.md",
+        "Extension": ".md",
+        "SizeBytes": 538
+      },
+      {
+        "RelativePath": "output\\services\\asset\\README.md",
+        "Extension": ".md",
+        "SizeBytes": 498
+      },
+      {
+        "RelativePath": "output\\services\\authentication\\README.md",
+        "Extension": ".md",
+        "SizeBytes": 380
+      },
+      {
+        "RelativePath": "output\\services\\campaign\\README.md",
+        "Extension": ".md",
+        "SizeBytes": 362
+      },
+      {
+        "RelativePath": "output\\services\\crawler\\README.md",
+        "Extension": ".md",
+        "SizeBytes": 716
+      },
+      {
+        "RelativePath": "output\\services\\hangfire\\README.md",
+        "Extension": ".md",
+        "SizeBytes": 532
+      },
+      {
+        "RelativePath": "output\\services\\http-clients\\README.md",
+        "Extension": ".md",
+        "SizeBytes": 616
+      },
+      {
+        "RelativePath": "output\\services\\web\\README.md",
+        "Extension": ".md",
+        "SizeBytes": 480
+      },
+      {
+        "RelativePath": "_out2\\services\\migration-intelligence-domaininference\\README.md",
+        "Extension": ".md",
+        "SizeBytes": 202
+      }
+    ]
+  },
+  "Insights": {
+    "TotalSourceFileCount": 145,
+    "ControllerLikeFileCount": 2,
+    "RepositoryLikeFileCount": 4,
+    "EndpointCount": 0,
+    "DependencyCount": 232,
+    "TableUsageCount": 33,
+    "ExternalCallCount": 17,
+    "LegacyRiskCount": 5,
+    "TopLevelSourceFolders": [
+      "Migration.Intelligence.Contracts",
+      "Migration.Intelligence.Design",
+      "Migration.Intelligence.Core",
+      "Migration.Intelligence.CodeAnalysis",
+      "Migration.Intelligence.DomainInference",
+      "Migration.Intelligence.Reporting",
+      "Migration.Intelligence.Scanner",
+      "Migration.Intelligence.Agents",
+      "Migration.Intelligence.Cli",
+      "Migration.Intelligence.Generation",
+      "Migration.Intelligence.Validation"
+    ],
+    "TopRiskFiles": [
+      "Migration.Intelligence.CodeAnalysis\\Heuristics\\LegacyFrameworkHeuristics.cs",
+      "Migration.Intelligence.DomainInference\\Services\\MigrationIntelligenceAnalyzer.cs"
+    ]
+  },
+  "Intelligence": {
+    "DomainEnumerationValidation": {
+      "InferredRootDomainCount": 1,
+      "RenderedRootDomainCount": 1,
+      "DossierDomainCount": 1,
+      "EndpointClusterDomainCount": 0,
+      "DependencyDomainCount": 0,
+      "MissingDomains": [],
+      "Warnings": [
+        "Domains without endpoint clusters: Intelligence.",
+        "Domains without dependency edges: Intelligence."
+      ],
+      "IsValid": false
+    },
+    "ComponentClassifications": [
+      {
+        "ComponentName": "Migration.Intelligence.Core",
+        "Category": 1,
+        "Evidence": "Classified as infrastructure because \u0060Migration.Intelligence.Core\u0060 is dominated by shared/core/config signals.",
+        "ValidationStatus": "Initial candidate detected from naming/path signals. Requires validation via dependency and table ownership analysis."
+      },
+      {
+        "ComponentName": "Intelligence",
+        "Category": 3,
+        "Evidence": "Classified as business domain candidate only after structural signals (controller-service-repository-table) were detected.",
+        "ValidationStatus": "Likely business boundary, but shared data and contracts must be hardened first."
+      },
+      {
+        "ComponentName": "Migration.Intelligence.Agents",
+        "Category": 3,
+        "Evidence": "Classified as business domain candidate only after structural signals (controller-service-repository-table) were detected.",
+        "ValidationStatus": "Likely business boundary, but shared data and contracts must be hardened first."
+      },
+      {
+        "ComponentName": "Migration.Intelligence.Cli",
+        "Category": 3,
+        "Evidence": "Classified as business domain candidate only after structural signals (controller-service-repository-table) were detected.",
+        "ValidationStatus": "Likely business boundary, but shared data and contracts must be hardened first."
+      },
+      {
+        "ComponentName": "Migration.Intelligence.CodeAnalysis",
+        "Category": 3,
+        "Evidence": "Classified as business domain candidate only after structural signals (controller-service-repository-table) were detected.",
+        "ValidationStatus": "Likely business boundary, but shared data and contracts must be hardened first."
+      },
+      {
+        "ComponentName": "Migration.Intelligence.Contracts",
+        "Category": 3,
+        "Evidence": "Classified as business domain candidate only after structural signals (controller-service-repository-table) were detected.",
+        "ValidationStatus": "Likely business boundary, but shared data and contracts must be hardened first."
+      },
+      {
+        "ComponentName": "Migration.Intelligence.Design",
+        "Category": 3,
+        "Evidence": "Classified as business domain candidate only after structural signals (controller-service-repository-table) were detected.",
+        "ValidationStatus": "Likely business boundary, but shared data and contracts must be hardened first."
+      },
+      {
+        "ComponentName": "Migration.Intelligence.DomainInference",
+        "Category": 3,
+        "Evidence": "Classified as business domain candidate only after structural signals (controller-service-repository-table) were detected.",
+        "ValidationStatus": "Likely business boundary, but shared data and contracts must be hardened first."
+      },
+      {
+        "ComponentName": "Migration.Intelligence.Generation",
+        "Category": 3,
+        "Evidence": "Classified as business domain candidate only after structural signals (controller-service-repository-table) were detected.",
+        "ValidationStatus": "Likely business boundary, but shared data and contracts must be hardened first."
+      },
+      {
+        "ComponentName": "Migration.Intelligence.Reporting",
+        "Category": 3,
+        "Evidence": "Classified as business domain candidate only after structural signals (controller-service-repository-table) were detected.",
+        "ValidationStatus": "Likely business boundary, but shared data and contracts must be hardened first."
+      },
+      {
+        "ComponentName": "Migration.Intelligence.Scanner",
+        "Category": 3,
+        "Evidence": "Classified as business domain candidate only after structural signals (controller-service-repository-table) were detected.",
+        "ValidationStatus": "Likely business boundary, but shared data and contracts must be hardened first."
+      },
+      {
+        "ComponentName": "Migration.Intelligence.Validation",
+        "Category": 3,
+        "Evidence": "Classified as business domain candidate only after structural signals (controller-service-repository-table) were detected.",
+        "ValidationStatus": "Likely business boundary, but shared data and contracts must be hardened first."
+      }
+    ],
+    "BusinessDomainCandidates": [
+      "Intelligence"
+    ],
+    "DomainHierarchies": [
+      {
+        "Domain": "Intelligence",
+        "Subdomains": [
+          "Intelligence"
+        ]
+      }
+    ],
+    "EndpointMappings": [],
+    "ExecutionChains": [],
+    "RepositoryTableMappings": [],
+    "TableOwnerships": [],
+    "SharedTables": [],
+    "OwnerlessOrAmbiguousTables": [],
+    "DependencyMatrix": [],
+    "ExternalDependencyMaps": [
+      {
+        "DomainCandidate": "Intelligence",
+        "HttpClients": [],
+        "ThirdPartyIntegrations": [],
+        "ExternalApis": [],
+        "QueuesOrEvents": [],
+        "InternalServiceCalls": []
+      }
+    ],
+    "Workflows": [],
+    "HangfireJobs": [],
+    "ProducerConsumerRelationships": [],
+    "BackgroundJobValidation": {
+      "DiscoveredJobCount": 0,
+      "TypedJobCount": 0,
+      "ScheduledJobsWithResolvedSchedule": 0,
+      "ScheduledJobsWithUnresolvedSchedule": 0,
+      "DomainMappedJobCount": 0,
+      "UnmappedJobCount": 0,
+      "ConsumerJobsWithMessageOrTopic": 0,
+      "ProducerConsumerRelationshipCount": 0,
+      "Warnings": []
+    },
+    "LegacyRiskDetails": [
+      {
+        "RiskType": ".NET Framework-only APIs",
+        "WhyRisky": ".NET Framework-specific APIs have no direct equivalent or require different hosting/runtime models in .NET 10.",
+        "ImpactedFiles": [
+          "Migration.Intelligence.DomainInference\\Services\\MigrationIntelligenceAnalyzer.cs"
+        ],
+        "MigrationImpact": "Extraction may fail at runtime and block deployment to modern service hosts.",
+        "RecommendedRemediation": "Replace APIs with .NET cross-platform alternatives and add compatibility wrappers where needed.",
+        "AffectedDomains": [
+          "Intelligence"
+        ],
+        "BlocksExtraction": false,
+        "RequiresAntiCorruptionLayerOrRefactor": true
+      },
+      {
+        "RiskType": "HttpContext usage",
+        "WhyRisky": "Direct HttpContext access leaks transport concerns into domain/application layers.",
+        "ImpactedFiles": [
+          "Migration.Intelligence.CodeAnalysis\\Heuristics\\LegacyFrameworkHeuristics.cs",
+          "Migration.Intelligence.DomainInference\\Services\\MigrationIntelligenceAnalyzer.cs"
+        ],
+        "MigrationImpact": "Porting to microservices requires extensive rewiring of request-scoped context logic.",
+        "RecommendedRemediation": "Introduce request context interfaces and move HttpContext access to edge adapters/controllers.",
+        "AffectedDomains": [
+          "Intelligence"
+        ],
+        "BlocksExtraction": false,
+        "RequiresAntiCorruptionLayerOrRefactor": true
+      },
+      {
+        "RiskType": "legacy IoC container usage",
+        "WhyRisky": "Legacy DI container composition roots are often framework-specific and globally coupled.",
+        "ImpactedFiles": [
+          "Migration.Intelligence.DomainInference\\Services\\MigrationIntelligenceAnalyzer.cs"
+        ],
+        "MigrationImpact": "Service bootstrapping for .NET 10 microservices becomes risky and error-prone.",
+        "RecommendedRemediation": "Move registrations to Microsoft.Extensions.DependencyInjection-compatible modules and remove static container access.",
+        "AffectedDomains": [
+          "Intelligence"
+        ],
+        "BlocksExtraction": false,
+        "RequiresAntiCorruptionLayerOrRefactor": true
+      },
+      {
+        "RiskType": "Razor rendering dependency",
+        "WhyRisky": "Razor rendering dependencies indicate mixed UI and business logic.",
+        "ImpactedFiles": [
+          "Migration.Intelligence.DomainInference\\Services\\MigrationIntelligenceAnalyzer.cs"
+        ],
+        "MigrationImpact": "Service extraction is delayed because rendering concerns do not belong to domain services.",
+        "RecommendedRemediation": "Split rendering from business flow and expose API contracts before extraction.",
+        "AffectedDomains": [
+          "Intelligence"
+        ],
+        "BlocksExtraction": false,
+        "RequiresAntiCorruptionLayerOrRefactor": false
+      },
+      {
+        "RiskType": "static/global context usage",
+        "WhyRisky": "Global mutable state creates hidden dependencies and thread-safety risks.",
+        "ImpactedFiles": [
+          "Migration.Intelligence.CodeAnalysis\\Heuristics\\LegacyFrameworkHeuristics.cs",
+          "Migration.Intelligence.DomainInference\\Services\\MigrationIntelligenceAnalyzer.cs"
+        ],
+        "MigrationImpact": "Service boundary isolation and independent scaling are compromised.",
+        "RecommendedRemediation": "Refactor to explicit dependency injection, remove global state, and model context per request/workflow.",
+        "AffectedDomains": [
+          "Intelligence"
+        ],
+        "BlocksExtraction": false,
+        "RequiresAntiCorruptionLayerOrRefactor": true
+      },
+      {
+        "RiskType": "System.Web dependency",
+        "WhyRisky": "System.Web pipeline abstractions are tightly coupled to classic ASP.NET hosting.",
+        "ImpactedFiles": [
+          "Migration.Intelligence.CodeAnalysis\\Heuristics\\LegacyFrameworkHeuristics.cs",
+          "Migration.Intelligence.DomainInference\\Services\\MigrationIntelligenceAnalyzer.cs"
+        ],
+        "MigrationImpact": "Direct extraction to ASP.NET Core/.NET 10 is blocked until host pipeline concerns are isolated.",
+        "RecommendedRemediation": "Encapsulate System.Web usages behind adapter interfaces and migrate endpoint surface to ASP.NET Core abstractions first.",
+        "AffectedDomains": [
+          "Intelligence"
+        ],
+        "BlocksExtraction": false,
+        "RequiresAntiCorruptionLayerOrRefactor": true
+      },
+      {
+        "RiskType": "tightly coupled shared config",
+        "WhyRisky": "Shared configuration access patterns create hidden coupling across domains.",
+        "ImpactedFiles": [
+          "Migration.Intelligence.DomainInference\\Services\\MigrationIntelligenceAnalyzer.cs"
+        ],
+        "MigrationImpact": "Extracted services cannot evolve configuration independently.",
+        "RecommendedRemediation": "Introduce bounded, versioned config contracts and isolate per-service settings.",
+        "AffectedDomains": [
+          "Intelligence"
+        ],
+        "BlocksExtraction": false,
+        "RequiresAntiCorruptionLayerOrRefactor": false
+      }
+    ],
+    "ServiceDossiers": [
+      {
+        "CandidateName": "Intelligence",
+        "DetectionRationale": "Likely business boundary inferred from controller, repository, table, and dependency co-occurrence.",
+        "Subdomains": [],
+        "RelatedControllers": [],
+        "RelatedEndpoints": [],
+        "RelatedServices": [],
+        "RelatedRepositories": [],
+        "RelatedEntities": [
+          "ConsolidationResult",
+          "DiRegistrationObservation",
+          "EndpointObservation",
+          "FileObservation",
+          "LegacyHostingEvaluation",
+          "Name",
+          "Naming",
+          "OwnershipResult",
+          "RegistrationHint",
+          "ScheduleConstantHint",
+          "ScheduleHint",
+          "ScheduleResolutionResult"
+        ],
+        "RelatedTables": [],
+        "ConsumerJobs": [],
+        "ScheduledJobs": [],
+        "TriggeredJobs": [],
+        "ProducerJobs": [],
+        "NormalJobs": [],
+        "JobSchedulingDependencies": [],
+        "BackgroundJobCount": 0,
+        "ConsumerJobCount": 0,
+        "ScheduledJobCount": 0,
+        "TriggeredJobCount": 0,
+        "ProducerJobCount": 0,
+        "NormalJobCount": 0,
+        "LegacyHostedJobCount": 0,
+        "ExternalDependencies": [],
+        "SharedDependencies": [],
+        "LegacyRisks": [
+          ".NET Framework-only APIs",
+          "HttpContext usage",
+          "legacy IoC container usage",
+          "Razor rendering dependency",
+          "static/global context usage",
+          "System.Web dependency",
+          "tightly coupled shared config"
+        ],
+        "CohesionScore": 30,
+        "CouplingScore": 100,
+        "MigrationReadinessScore": 5,
+        "MigrationReadinessLevel": "Low",
+        "MigrationReadinessExplanation": "Readiness=5. Cohesion=30, Coupling=100, SharedTables=0, ExternalDeps=0, LegacyRisks=7, CrossDomainWorkflows=0, UnknownChains=0, BackgroundJobs=0, ConsumerJobs=0, LegacyHostedJobs=0, EndpointOverlap=no, EndpointOwnershipConfidence=0.45.",
+        "RecommendedFirstExtractionStrategy": "Do not extract directly yet. Address legacy and coupling blockers first, then re-evaluate.",
+        "ReadOnlyFirstExtractionPossible": false,
+        "StagedMigrationRecommended": true,
+        "UnknownExecutionChainCount": 0,
+        "MajorBlockers": [
+          "Legacy risk types detected: .NET Framework-only APIs, HttpContext usage, legacy IoC container usage, Razor rendering dependency, static/global context usage, System.Web dependency, tightly coupled shared config.",
+          "Endpoint ownership confidence is low; controller and route ownership mapping should be validated."
+        ]
+      }
+    ],
+    "MigrationOrderRecommendations": [
+      {
+        "Rank": 1,
+        "CandidateName": "Intelligence",
+        "WhyFirstOrLater": "Candidate should be postponed until unknown chains, shared data, and legacy blockers are reduced.",
+        "MajorBlockers": [
+          "Legacy risk types detected: .NET Framework-only APIs, HttpContext usage, legacy IoC container usage, Razor rendering dependency, static/global context usage, System.Web dependency, tightly coupled shared config.",
+          "Endpoint ownership confidence is low; controller and route ownership mapping should be validated."
+        ],
+        "ReadOnlyFirstExtractionPossible": false,
+        "StagedMigrationRecommended": true
+      }
+    ],
+    "SharedKernelItems": []
+  },
+  "ServiceBlueprints": [
+    {
+      "ServiceName": "Intelligence",
+      "BoundedContext": "IntelligenceContext",
+      "ConfidenceScore": 143,
+      "Description": "Derived from project naming (Migration.Intelligence.Agents). Derived from project path (Migration.Intelligence.Agents\\Migration.Intelligence.Agents.csproj). Derived from project naming (Migration.Intelligence.Cli). DependencyHealth=81, LegacyRisk=84. Likely business boundary, but shared data and contracts must be hardened first.",
+      "SourceHints": [
+        "project:Migration.Intelligence.Agents",
+        "project-path:Migration.Intelligence.Agents\\Migration.Intelligence.Agents.csproj",
+        "project:Migration.Intelligence.Cli",
+        "project-path:Migration.Intelligence.Cli\\Migration.Intelligence.Cli.csproj",
+        "project:Migration.Intelligence.CodeAnalysis",
+        "score:overall=80",
+        "score:dependency=81",
+        "score:legacy=84"
+      ]
+    }
+  ],
+  "DryRun": true,
+  "ExecutedAtUtc": "2026-03-07T14:41:46.9125317+00:00"
+}

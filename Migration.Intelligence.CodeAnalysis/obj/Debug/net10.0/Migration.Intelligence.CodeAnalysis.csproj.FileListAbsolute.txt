@@ -1,0 +1,17 @@
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.CodeAnalysis\bin\Debug\net10.0\Migration.Intelligence.CodeAnalysis.deps.json
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.CodeAnalysis\bin\Debug\net10.0\Migration.Intelligence.CodeAnalysis.dll
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.CodeAnalysis\bin\Debug\net10.0\Migration.Intelligence.CodeAnalysis.pdb
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.CodeAnalysis\bin\Debug\net10.0\Migration.Intelligence.Contracts.dll
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.CodeAnalysis\bin\Debug\net10.0\Migration.Intelligence.Core.dll
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.CodeAnalysis\bin\Debug\net10.0\Migration.Intelligence.Contracts.pdb
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.CodeAnalysis\bin\Debug\net10.0\Migration.Intelligence.Core.pdb
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.CodeAnalysis\obj\Debug\net10.0\Migration.Intelligence.CodeAnalysis.csproj.AssemblyReference.cache
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.CodeAnalysis\obj\Debug\net10.0\Migration.Intelligence.CodeAnalysis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.CodeAnalysis\obj\Debug\net10.0\Migration.Intelligence.CodeAnalysis.AssemblyInfoInputs.cache
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.CodeAnalysis\obj\Debug\net10.0\Migration.Intelligence.CodeAnalysis.AssemblyInfo.cs
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.CodeAnalysis\obj\Debug\net10.0\Migration.Intelligence.CodeAnalysis.csproj.CoreCompileInputs.cache
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.CodeAnalysis\obj\Debug\net10.0\Migratio.880D6FCC.Up2Date
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.CodeAnalysis\obj\Debug\net10.0\Migration.Intelligence.CodeAnalysis.dll
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.CodeAnalysis\obj\Debug\net10.0\refint\Migration.Intelligence.CodeAnalysis.dll
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.CodeAnalysis\obj\Debug\net10.0\Migration.Intelligence.CodeAnalysis.pdb
+C:\Users\ilhan.emir\RiderProjects\monolith-decomposition-agent\Migration.Intelligence.CodeAnalysis\obj\Debug\net10.0\ref\Migration.Intelligence.CodeAnalysis.dll

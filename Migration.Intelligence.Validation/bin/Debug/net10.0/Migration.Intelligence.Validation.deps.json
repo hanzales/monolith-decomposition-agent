@@ -1,0 +1,74 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Migration.Intelligence.Validation/1.0.0": {
+        "dependencies": {
+          "Migration.Intelligence.Contracts": "1.0.0",
+          "Migration.Intelligence.Core": "1.0.0",
+          "Migration.Intelligence.Design": "1.0.0"
+        },
+        "runtime": {
+          "Migration.Intelligence.Validation.dll": {}
+        }
+      },
+      "Migration.Intelligence.Contracts/1.0.0": {
+        "runtime": {
+          "Migration.Intelligence.Contracts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Migration.Intelligence.Core/1.0.0": {
+        "dependencies": {
+          "Migration.Intelligence.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "Migration.Intelligence.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Migration.Intelligence.Design/1.0.0": {
+        "dependencies": {
+          "Migration.Intelligence.Contracts": "1.0.0",
+          "Migration.Intelligence.Core": "1.0.0"
+        },
+        "runtime": {
+          "Migration.Intelligence.Design.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Migration.Intelligence.Validation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Migration.Intelligence.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Migration.Intelligence.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Migration.Intelligence.Design/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

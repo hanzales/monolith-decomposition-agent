@@ -1,0 +1,205 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Migration.Intelligence.Cli/1.0.0": {
+        "dependencies": {
+          "Migration.Intelligence.Agents": "1.0.0",
+          "Migration.Intelligence.CodeAnalysis": "1.0.0",
+          "Migration.Intelligence.Contracts": "1.0.0",
+          "Migration.Intelligence.Core": "1.0.0",
+          "Migration.Intelligence.Design": "1.0.0",
+          "Migration.Intelligence.DomainInference": "1.0.0",
+          "Migration.Intelligence.Generation": "1.0.0",
+          "Migration.Intelligence.Reporting": "1.0.0",
+          "Migration.Intelligence.Scanner": "1.0.0",
+          "Migration.Intelligence.Validation": "1.0.0"
+        },
+        "runtime": {
+          "Migration.Intelligence.Cli.dll": {}
+        }
+      },
+      "Migration.Intelligence.Agents/1.0.0": {
+        "dependencies": {
+          "Migration.Intelligence.Contracts": "1.0.0",
+          "Migration.Intelligence.Core": "1.0.0",
+          "Migration.Intelligence.Design": "1.0.0",
+          "Migration.Intelligence.Validation": "1.0.0"
+        },
+        "runtime": {
+          "Migration.Intelligence.Agents.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Migration.Intelligence.CodeAnalysis/1.0.0": {
+        "dependencies": {
+          "Migration.Intelligence.Contracts": "1.0.0",
+          "Migration.Intelligence.Core": "1.0.0"
+        },
+        "runtime": {
+          "Migration.Intelligence.CodeAnalysis.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Migration.Intelligence.Contracts/1.0.0": {
+        "runtime": {
+          "Migration.Intelligence.Contracts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Migration.Intelligence.Core/1.0.0": {
+        "dependencies": {
+          "Migration.Intelligence.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "Migration.Intelligence.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Migration.Intelligence.Design/1.0.0": {
+        "dependencies": {
+          "Migration.Intelligence.Contracts": "1.0.0",
+          "Migration.Intelligence.Core": "1.0.0"
+        },
+        "runtime": {
+          "Migration.Intelligence.Design.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Migration.Intelligence.DomainInference/1.0.0": {
+        "dependencies": {
+          "Migration.Intelligence.Contracts": "1.0.0",
+          "Migration.Intelligence.Core": "1.0.0"
+        },
+        "runtime": {
+          "Migration.Intelligence.DomainInference.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Migration.Intelligence.Generation/1.0.0": {
+        "dependencies": {
+          "Migration.Intelligence.Contracts": "1.0.0",
+          "Migration.Intelligence.Core": "1.0.0",
+          "Migration.Intelligence.Design": "1.0.0",
+          "Migration.Intelligence.Validation": "1.0.0"
+        },
+        "runtime": {
+          "Migration.Intelligence.Generation.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Migration.Intelligence.Reporting/1.0.0": {
+        "dependencies": {
+          "Migration.Intelligence.Contracts": "1.0.0",
+          "Migration.Intelligence.Core": "1.0.0"
+        },
+        "runtime": {
+          "Migration.Intelligence.Reporting.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Migration.Intelligence.Scanner/1.0.0": {
+        "dependencies": {
+          "Migration.Intelligence.Contracts": "1.0.0",
+          "Migration.Intelligence.Core": "1.0.0"
+        },
+        "runtime": {
+          "Migration.Intelligence.Scanner.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Migration.Intelligence.Validation/1.0.0": {
+        "dependencies": {
+          "Migration.Intelligence.Contracts": "1.0.0",
+          "Migration.Intelligence.Core": "1.0.0",
+          "Migration.Intelligence.Design": "1.0.0"
+        },
+        "runtime": {
+          "Migration.Intelligence.Validation.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Migration.Intelligence.Cli/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Migration.Intelligence.Agents/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Migration.Intelligence.CodeAnalysis/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Migration.Intelligence.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Migration.Intelligence.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Migration.Intelligence.Design/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Migration.Intelligence.DomainInference/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Migration.Intelligence.Generation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Migration.Intelligence.Reporting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Migration.Intelligence.Scanner/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Migration.Intelligence.Validation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

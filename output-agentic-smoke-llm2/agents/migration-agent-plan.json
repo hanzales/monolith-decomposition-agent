@@ -1,0 +1,41 @@
+{
+  "GeneratedAtUtc": "2026-03-07T15:06:30.0160353+00:00",
+  "OverallConfidenceScore": 45,
+  "Mode": 1,
+  "AiReasoningApplied": false,
+  "AiSummary": "LLM fallback to deterministic: Missing API key. Provide --llm-api-key or set OPENAI_API_KEY.",
+  "Recommendations": [
+    {
+      "Domain": "PriceOffer",
+      "Rank": 1,
+      "PriorityScore": 52,
+      "Strategy": 0,
+      "ReadinessLevel": "Unknown",
+      "Reasons": [
+        "Priority score computed as 52.",
+        "Boundary confidence: 52%.",
+        "Readiness score: 52 (Unknown).",
+        "Shared tables: 0.",
+        "Blockers: 0.",
+        "Extraction strategy: DirectExtraction.",
+        "Validation score: 52."
+      ],
+      "Blockers": [],
+      "ActionItems": [
+        {
+          "Title": "Run extraction spike",
+          "Category": "discovery",
+          "Description": "Execute a small extraction spike to validate contracts and deployment flow.",
+          "Priority": 3
+        }
+      ]
+    }
+  ],
+  "GlobalNotes": [
+    "Analyzed business domains: 1.",
+    "Design recommendations produced: 1.",
+    "Validation overall score: 65.",
+    "Validation detected blocking errors; top recommendations should be treated as conditional.",
+    "Reasoning summary: LLM fallback to deterministic: Missing API key. Provide --llm-api-key or set OPENAI_API_KEY."
+  ]
+}
